@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NexcoApp.Classes
+    // child class of user //
 {
     public class Admin : User
     {
