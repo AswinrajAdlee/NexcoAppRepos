@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NexcoApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            BackgroundColor="white"
+            Padding="30,50"
+            Spacing="20">
+            <!-- NEXCO NETWORKS LOGO -->
+            <Image
+                Source="nexcologo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Nexco Networks Logo"
+                Margin="0,70"/>
+            
+            <!-- EMAIL TEXTBOX -->
+            <Frame
+                BorderColor="Gray"
+                BackgroundColor="White"
+                CornerRadius="10"
+                Padding="0">
+                <Entry
+                    x:Name="EmailText"
+                    Focused="EmailText_Focused"
+                    Unfocused="Entry_Unfocused"
+                    Text="Email"
+                    TextColor="Black"
+                    BackgroundColor="Transparent"
+                    FontSize="16"/>
+            </Frame>
+            
+            <!-- PASSWORD TEXTBOX -->
+            <Frame
+                BorderColor="Gray"
+                CornerRadius="10"
+                BackgroundColor="White"
+                Padding="0">
+                <Entry
+                    x:Name="PasswordText"
+                    Focused="PasswordText_Focused"
+                    Unfocused="PasswordText_Unfocused"
+                    Text="Password"
+                    TextColor="Black"
+                    FontSize="16"
+                    BackgroundColor="Transparent"/>
+            </Frame>
+            
+            <!-- LOGIN BUTTON -->
+            <Button
+                x:Name="LoginBtn"
+                Text="Login" 
+                SemanticProperties.Hint="Opens Login Menu"
+                HorizontalOptions="CenterAndExpand" 
+                BackgroundColor="DarkRed"
+                TextColor="White"/>
+            
+            <!-- DON'T HAVE ACOUNT? REGISTER -->
+            <HorizontalStackLayout>
+                <Label 
+                    Text="Don't have an account?"
+                    TextColor="Black"
+                    VerticalOptions="Start"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="65,0"/>
+                <Button
+                    Text="Register" 
+                    SemanticProperties.Hint="Opens Registration Menu"
+                    BackgroundColor="Transparent"
+                    BorderColor="Transparent"
+                    TextColor="DarkRed"
+                    Grid.Column="2"
+                    Grid.Row="2"
+                    VerticalOptions="Center"
+                    Margin="-80"
+                    Padding="18,0"/>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

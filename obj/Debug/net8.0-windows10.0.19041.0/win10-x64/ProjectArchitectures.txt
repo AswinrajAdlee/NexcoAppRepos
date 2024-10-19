@@ -1,0 +1,1 @@
+G:\VisualStudio\source\repos\NexcoApp\NexcoApp\NexcoApp.csproj;x64
