@@ -12,35 +12,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NexcoApp
-build_property.ProjectDir = G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoApp\
+build_property.ProjectDir = G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoApp/App.xaml]
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoApp/AppShell.xaml]
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoApp/LoginPage.xaml]
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
-[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoApp/Resources/Styles/Colors.xaml]
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoApp/Resources/Styles/Styles.xaml]
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoApp\\NexcoApp.csproj": {}
+    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj": {}
   },
   "projects": {
-    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoApp\\NexcoApp.csproj": {
+    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoApp\\NexcoApp.csproj",
+        "projectUniqueName": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj",
         "projectName": "NexcoApp",
-        "projectPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoApp\\NexcoApp.csproj",
+        "projectPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj",
         "packagesPath": "C:\\Users\\criba\\.nuget\\packages\\",
-        "outputPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoApp\\obj\\",
+        "outputPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-19T22:07:56.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T22:07:50.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
