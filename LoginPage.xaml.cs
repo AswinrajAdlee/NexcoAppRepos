@@ -33,6 +33,7 @@ namespace NexcoApp
             if (string.IsNullOrWhiteSpace(PasswordText.Text))
             {
                 PasswordText.Text = "Password";
+                PasswordText.IsPassword = false;
             }
         }
 
@@ -42,6 +43,7 @@ namespace NexcoApp
             if (string.Equals(PasswordText.Text, "Password"))
             {
                 PasswordText.Text = "";
+                PasswordText.IsPassword = true;
             }
         }
 
