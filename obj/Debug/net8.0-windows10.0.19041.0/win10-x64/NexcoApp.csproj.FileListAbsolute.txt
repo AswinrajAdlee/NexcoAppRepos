@@ -547,3 +547,10 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-wi
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Firebase.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\LiteDB.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Reactive.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hpgback.scale-100.jpg
+C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nexcologo_white.scale-100.png

@@ -99,7 +99,13 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            
+            <Button
+                x:Name="CheckTest"
+                Clicked="CheckTest_Clicked" 
+                Text="Test"
+                />
+
+
         </VerticalStackLayout>
     </ScrollView>
 

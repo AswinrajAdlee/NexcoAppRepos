@@ -4,7 +4,6 @@ using Firebase.Database;
 using Firebase.Database.Query;
 using NexcoApp.Classes;
 using System.Collections.ObjectModel;
-using System.Runtime.CompilerServices;
 
 namespace NexcoApp
 {
@@ -46,6 +45,21 @@ namespace NexcoApp
             firebaseClient.Child("Random Entry").PostAsync(new Database
             {
                 Title = TitleEntry.Text,
+            });
+        }
+
+        private void CheckTest_Clicked(object sender, EventArgs e)
+        {
+            Database.ToList().ForEach(item =>
+            {
+                if ((item.Title == EmailText.Text))
+                {
+                    Shell.Current.GoToAsync("homepage");
+                }
+                else
+                {
+                  
+                }
             });
         }
     }
