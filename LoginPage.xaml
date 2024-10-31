@@ -24,9 +24,7 @@
                 Padding="0">
                 <Entry
                     x:Name="EmailText"
-                    Focused="EmailText_Focused"
-                    Unfocused="Entry_Unfocused"
-                    Text="Email"
+                    Placeholder="Email"
                     TextColor="Black"
                     BackgroundColor="Transparent"
                     FontSize="16"/>
@@ -40,9 +38,8 @@
                 Padding="0">
                 <Entry
                     x:Name="PasswordText"
-                    Focused="PasswordText_Focused"
-                    Unfocused="PasswordText_Unfocused"
-                    Text="Password"
+                    IsPassword= "True"
+                    Placeholder="Password"
                     TextColor="Black"
                     FontSize="16"
                     BackgroundColor="Transparent"/>
@@ -51,7 +48,8 @@
             <!-- LOGIN BUTTON -->
             <Button
                 x:Name="LoginBtn"
-                Text="Login" 
+                Text="Login"
+                Clicked="LoginBtn_Clicked"
                 SemanticProperties.Hint="Opens Login Menu"
                 HorizontalOptions="CenterAndExpand" 
                 BackgroundColor="DarkRed"

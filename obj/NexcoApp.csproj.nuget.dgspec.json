@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\NexcoApp.csproj": {}
+    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\NexcoApp.csproj": {
+    "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\NexcoApp.csproj",
+        "projectUniqueName": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj",
         "projectName": "NexcoApp",
-        "projectPath": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\NexcoApp.csproj",
-        "packagesPath": "C:\\Users\\aswin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\obj\\",
+        "projectPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\NexcoApp.csproj",
+        "packagesPath": "C:\\Users\\criba\\.nuget\\packages\\",
+        "outputPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aswin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\criba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

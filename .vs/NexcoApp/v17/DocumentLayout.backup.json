@@ -1,22 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\",
+  "WorkspaceRootPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:platforms\\android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
-              "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml.cs",
-              "RelativeToolTip": "LoginPage.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwC8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T20:43:45.058Z",
+              "WhenOpened": "2024-10-31T02:05:47.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\Admin.cs",
-              "RelativeDocumentMoniker": "Classes\\Admin.cs",
-              "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\Admin.cs",
-              "RelativeToolTip": "Classes\\Admin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T22:11:19.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T02:05:42.359Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-31T02:05:11.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "colors.xml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\values\\colors.xml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Platforms\\Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "Platforms\\Android\\Resources\\values\\colors.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-31T02:05:03.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:26:28.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
               "RelativeDocumentMoniker": "LoginPage.xaml",
-              "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
               "RelativeToolTip": "LoginPage.xaml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAcwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-19T22:07:56.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T20:43:45.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePage.xaml",
+              "RelativeDocumentMoniker": "HomePage.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePage.xaml",
+              "RelativeToolTip": "HomePage.xaml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T22:31:52.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "HomePage.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePage.xaml.cs",
+              "RelativeToolTip": "HomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:37:42.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\MauiProgram.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\MauiProgram.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T22:07:50.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-19T22:07:50.784Z"
             }
           ]
         }

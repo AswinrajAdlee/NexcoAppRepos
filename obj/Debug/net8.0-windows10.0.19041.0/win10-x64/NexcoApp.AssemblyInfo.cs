@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NexcoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ac713a0ec6ad327e0bfdcc069fdda1112752c35a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+64e627be0195004217bfebb0eeaacc2d7fbd20b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NexcoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NexcoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
