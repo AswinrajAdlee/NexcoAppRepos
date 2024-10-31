@@ -76,7 +76,30 @@
                     Margin="-80"
                     Padding="18,0"/>
             </HorizontalStackLayout>
+            
+            <!-- Firebase database test -->
+            <Button
+                x:Name="Counter"
+                Clicked="Counter_Clicked"
+                Text="Click to update Database (testing purposes)"
+                BackgroundColor="DarkRed"
+                TextColor="White"/>
+            <Entry
+                x:Name="TitleEntry"
+                Placeholder="Write something and press button to update database"
+                TextColor="Black"/>
+            
+            
+            <CollectionView ItemsSource="{Binding Database}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Title}"
+                               TextColor="Black"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
 
+            
         </VerticalStackLayout>
     </ScrollView>
 

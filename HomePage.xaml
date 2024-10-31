@@ -5,7 +5,7 @@
     <VerticalStackLayout
         BackgroundColor="white"
         Padding="0, 0"
-        Spacing="0">
+        Spacing="0"> <!-- NexcoNetworks image -->
         <Grid ColumnDefinitions="Auto, *" BackgroundColor="#1c1b19" Padding="5,10">
             <Image
                 Margin="10,0"

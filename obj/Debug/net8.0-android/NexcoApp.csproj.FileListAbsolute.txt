@@ -1327,8 +1327,6 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-an
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\res\values\colors.xml
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\uploadflags.txt
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\resolvedassemblies.hash
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
@@ -1559,8 +1557,6 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-an
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
@@ -2242,3 +2238,7 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-an
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\resizetizer\r\drawable\hpgback.jpg
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\resizetizer\r\drawable\nexcologo_white.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\Firebase.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\LiteDB.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\Newtonsoft.Json.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\System.Reactive.dll
