@@ -13,10 +13,10 @@ namespace NexcoApp.Classes
         public string fName = "N/A";
         public string lName = "N/A";
         public string phone = "N/A";
-        public string email;
+        public string email = "N/A";
         public int age;
         public DateTime birthDate; 
-        public string password;
+        public string password = "N/A";
         public bool isLoggedIn = false;
         
    

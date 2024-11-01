@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace NexcoApp.Classes
 {
-    public class Database
+    internal class Address
     {
-        public string Title { get; set; }
+        public string? street;
+        public string? postal;
+
+        public void validateAddress()
+        {
+
+        }
+
     }
 }
