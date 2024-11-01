@@ -84,12 +84,8 @@
                 Text="Click to update Database (testing purposes)"
                 BackgroundColor="DarkRed"
                 TextColor="White"/>
-            <Entry
-                x:Name="TitleEntry"
-                Placeholder="Write something and press button to update database"
-                TextColor="Black"/>
-            
-            
+
+
             <CollectionView ItemsSource="{Binding Database}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -98,12 +94,6 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-
-            <Button
-                x:Name="CheckTest"
-                Clicked="CheckTest_Clicked" 
-                Text="Test"
-                />
 
 
         </VerticalStackLayout>

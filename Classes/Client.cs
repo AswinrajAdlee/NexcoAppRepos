@@ -10,14 +10,7 @@ namespace NexcoApp.Classes
     public class Client : User
     {
 
-        public string? associatedCompany;
-        public string? companyID;
-
-
-        public Client(int userID, string? fName, string? lName, string? phone, string? email, int age, DateTime birthDate, string? password, bool isLoggedIn, string? companyInfo) : base(userID, fName, lName, phone, email, age, birthDate, password, isLoggedIn, companyInfo)
-        { 
-          
-        }
+        public string companyName = "N/A";
 
         public void generateTicket()
         {

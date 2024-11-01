@@ -623,6 +623,8 @@ C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\obj\Debug\net8.0-ios\ios-
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\NexcoApp.runtimeconfig.json
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\NexcoApp.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\NexcoApp.pdb
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Firebase.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\LiteDB.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Configuration.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.Configuration.Abstractions.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Extensions.DependencyInjection.dll
@@ -638,6 +640,9 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Essentials.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Microsoft.Maui.Graphics.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\Newtonsoft.Json.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\System.Reactive.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\System.Runtime.InteropServices.WindowsRuntime.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\ar\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\ca\Microsoft.Maui.Controls.resources.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\cs\Microsoft.Maui.Controls.resources.dll
@@ -886,10 +891,9 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\mauisplash.stamp
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@3x.png
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@2x.png
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot.png
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\nexcologo_white.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\nexcologo.png
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\hpgback.jpg
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -902,6 +906,9 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@3x.png
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot@2x.png
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\dotnet_bot.png
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\mauiimage.stamp
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\mauiimage.outputs
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\f\MauiInfo.plist
@@ -931,5 +938,3 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\NexcoApp.pdb
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\NexcoApp.genruntimeconfig.cache
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\ref\NexcoApp.dll
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\nexcologo_white.png
-G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\resizetizer\r\Resources\hpgback.jpg

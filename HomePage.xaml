@@ -61,6 +61,8 @@
                         FontAttributes="Bold"
                     />
                     <Button
+                        x:Name="TicketsBtn"
+                        Clicked="TicketsBtn_Clicked"
                         Margin="0,0,5,0"
                         Text="Tickets"
                         TextColor="White"

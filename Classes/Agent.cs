@@ -9,10 +9,7 @@ namespace NexcoApp.Classes
     public class Agent : User
     {
         public string? agentRole;
-        public Agent(int userID, string? fName, string? lName, string? phone, string? email, int age, DateTime birthDate, string? password, bool isLoggedIn, string? companyInfo) : base(userID, fName, lName, phone, email, age, birthDate, password, isLoggedIn, companyInfo)
-        {
 
-        }
 
 
 

@@ -7,6 +7,7 @@
             InitializeComponent();
 
             Routing.RegisterRoute("homepage", typeof(HomePage));
+            Routing.RegisterRoute("generateticket", typeof(GenerateTicket));
         }
     }
 }
