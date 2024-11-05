@@ -45,7 +45,7 @@ namespace NexcoApp
                     if (item.password == PasswordText.Text)
                     {
                        
-                        Navigation.PushAsync(new HomePage(item));                  
+                        Navigation.PushAsync(new HomePage(item, firebaseClient, Client));
                     }
                     else
                     {
@@ -73,7 +73,7 @@ namespace NexcoApp
                     found = true;
                     if (item.password == PasswordText.Text)
                     {
-                        Navigation.PushAsync(new HomePage(item));
+                        Navigation.PushAsync(new HomePage(item, firebaseClient, Client));
                     }
                 }
                

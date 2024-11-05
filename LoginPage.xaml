@@ -8,7 +8,7 @@
             BackgroundColor="white"
             Padding="30,50"
             Spacing="20">
-            <!-- NEXCO NETWORKS LOGO adad-->
+            <!-- NEXCO NETWORKS LOGO -->
             <Image
                 Source="nexcologo.png"
                 HeightRequest="185"
