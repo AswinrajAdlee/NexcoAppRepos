@@ -44,7 +44,6 @@ namespace NexcoApp
                     found = true;
                     if (item.password == PasswordText.Text)
                     {
-                       
                         Navigation.PushAsync(new HomePage(item, firebaseClient, Client));
                     }
                     else
@@ -88,6 +87,11 @@ namespace NexcoApp
                     userID = (Client.ToArray().Length+1),
                 });
             }
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RegisterPage(firebaseClient));
         }
     }
 

@@ -1,5 +1,4 @@
 namespace NexcoApp;
-
 using Firebase.Database;
 using Firebase.Database.Query;
 using NexcoApp.Classes;

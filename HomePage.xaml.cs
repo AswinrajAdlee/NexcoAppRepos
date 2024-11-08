@@ -14,7 +14,6 @@ public partial class HomePage : ContentPage
 	{
 		InitializeComponent();
         cClient = client;
-        TicketsBtn.Text = cClient.password;
         firebaseClient = firebase;
         cClientlist = clientlist;
 	}

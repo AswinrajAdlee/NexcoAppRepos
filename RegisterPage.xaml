@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NexcoApp.GenerateTicket">
+             x:Class="NexcoApp.RegisterPage">
     <VerticalStackLayout
         BackgroundColor="white"
-        Padding="20"
-        >
-        <Button
-            x:Name="ValueTest"
-            Text="Press"
-            Clicked="ValueTest_Clicked"/>
-
+        Padding="20">
         <Label 
-            Text="Generate Tickets!"
-            TextColor="Black"
+            Text="Register page"
+            TextColor="black"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

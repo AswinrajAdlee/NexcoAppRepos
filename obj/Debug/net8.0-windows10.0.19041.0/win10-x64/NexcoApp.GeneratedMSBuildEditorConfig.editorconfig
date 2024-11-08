@@ -49,6 +49,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
+[C:/Users/aswin/OneDrive/Documents/GitHub/NexcoAppRepos/RegisterPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.RegisterPage.xaml
+build_metadata.AdditionalFiles.TargetPath = RegisterPage.xaml
+build_metadata.AdditionalFiles.RelativePath = RegisterPage.xaml
+
 [C:/Users/aswin/OneDrive/Documents/GitHub/NexcoAppRepos/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.Resources.Styles.Colors.xaml

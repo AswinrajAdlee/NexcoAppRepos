@@ -65,7 +65,8 @@
                     Grid.Column="1"
                     Margin="65,0"/>
                 <Button
-                    Text="Register" 
+                    Text="Register"
+                    Clicked="Button_Clicked"
                     SemanticProperties.Hint="Opens Registration Menu"
                     BackgroundColor="Transparent"
                     BorderColor="Transparent"
