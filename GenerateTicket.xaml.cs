@@ -21,25 +21,6 @@ public partial class GenerateTicket : ContentPage
 
     private void ValueTest_Clicked(object sender, EventArgs e)
     {
-        ValueTest.Text = cClient.userID.ToString();
-
-        cClientlist.ToList().ForEach(item =>
-        {
-        if ((item.userID == cClient.userID))
-        {
-            if (item.email == "test@gmail.com")
-            {
-                key = item.ToString();
-                item.email = "test";
-                firebaseClient.Child("Client").Child(key).PostAsync(new Client { email = "test" });
-                ValueTest.Text = item.ToString();
-            }
-                else
-                {
- 
-                }
-            }
-
-        });
+        firebaseClient.Child("Client").Child(cClient.key).PatchAsync(new { email = "test" });
     }
 }

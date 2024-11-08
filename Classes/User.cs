@@ -18,6 +18,7 @@ namespace NexcoApp.Classes
         public DateTime birthDate; 
         public string password = "N/A";
         public bool isLoggedIn = false;
+        public string key;
         
    
         public void Registration()

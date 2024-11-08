@@ -59,6 +59,8 @@ namespace NexcoApp
                 // show a box saying that the email or password is incorrect // 
                 DisplayAlert("Error", "Email or Password is Incorrect", "OK");
             }
+
+            
         }
 
         // Test button // 

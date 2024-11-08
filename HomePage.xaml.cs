@@ -16,7 +16,20 @@ public partial class HomePage : ContentPage
         cClient = client;
         firebaseClient = firebase;
         cClientlist = clientlist;
-	}
+
+
+        var collection = firebaseClient
+               .Child("Client")
+               .AsObservable<Client>()
+               .Subscribe((item) =>
+               {
+                   if (item.Object.userID == cClient.userID)
+                   {
+                       cClient.key = item.Key;
+                   }
+               });
+    }
+
 
     private void Button_Clicked(object sender, EventArgs e)
     {
@@ -25,6 +38,7 @@ public partial class HomePage : ContentPage
 
     private void TicketsBtn_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new GenerateTicket(cClient, firebaseClient, cClientlist));
+         Navigation.PushAsync(new GenerateTicket(cClient, firebaseClient, cClientlist));
+
     }
 }

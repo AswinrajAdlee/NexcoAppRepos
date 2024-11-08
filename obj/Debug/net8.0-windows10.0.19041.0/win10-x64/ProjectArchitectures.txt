@@ -1,1 +1,1 @@
-C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\NexcoApp.csproj;x64
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\NexcoApp.csproj;x64
