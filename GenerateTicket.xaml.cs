@@ -1,8 +1,10 @@
 namespace NexcoApp;
+
 using Firebase.Database;
 using Firebase.Database.Query;
 using NexcoApp.Classes;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Net.Quic;
 
 public partial class GenerateTicket : ContentPage
@@ -21,6 +23,6 @@ public partial class GenerateTicket : ContentPage
 
     private void ValueTest_Clicked(object sender, EventArgs e)
     {
-        firebaseClient.Child("Client").Child(cClient.key).PatchAsync(new { email = "test" });
+        firebaseClient.Child("Client").Child(cClient.key).PatchAsync(new {email = "test", password = "test2"});
     }
 }

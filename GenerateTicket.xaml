@@ -6,15 +6,27 @@
         BackgroundColor="white"
         Padding="20"
         >
+        <Label 
+            Text="Generate Ticket"
+            FontSize="24"
+            FontFamily="Arial"
+            TextTransform="Uppercase"
+            HorizontalOptions="Start"
+            TextColor="Black"
+            VerticalOptions="Center"  />
+        <Border
+            Stroke="black"
+            StrokeThickness="1"
+            Padding="-3"
+            Margin="0,10">
+            <Entry
+            x:Name="Title"
+            Placeholder="Subject Title"/>
+        </Border>
         <Button
             x:Name="ValueTest"
             Text="Press"
             Clicked="ValueTest_Clicked"/>
 
-        <Label 
-            Text="Generate Tickets!"
-            TextColor="Black"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>

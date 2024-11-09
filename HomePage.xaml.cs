@@ -17,7 +17,7 @@ public partial class HomePage : ContentPage
         firebaseClient = firebase;
         cClientlist = clientlist;
 
-
+        // Set client key after login so that we can change database values later // 
         var collection = firebaseClient
                .Child("Client")
                .AsObservable<Client>()
@@ -38,7 +38,7 @@ public partial class HomePage : ContentPage
 
     private void TicketsBtn_Clicked(object sender, EventArgs e)
     {
-         Navigation.PushAsync(new GenerateTicket(cClient, firebaseClient, cClientlist));
-
+        // Open Generate Tickets Page //
+        Navigation.PushAsync(new GenerateTicket(cClient, firebaseClient, cClientlist));
     }
 }

@@ -93,6 +93,7 @@ namespace NexcoApp
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            // Navigate to Register Page (Passing through firebase database) //
             Navigation.PushAsync(new RegisterPage(firebaseClient));
         }
     }
