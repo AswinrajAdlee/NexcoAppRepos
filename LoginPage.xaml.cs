@@ -30,7 +30,7 @@ namespace NexcoApp
         // Firebase Link // 
         FirebaseClient firebaseClient = new FirebaseClient("https://nexcodb-default-rtdb.firebaseio.com/");
 
-        // Retrieval and observing database //
+        // Retrieval and observing Client database //
         public ObservableCollection<Client> Client { get; set; } = new ObservableCollection<Client>();
 
        // Login Button // 

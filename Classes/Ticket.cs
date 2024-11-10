@@ -10,6 +10,7 @@ namespace NexcoApp.Classes
     {
         public required string title;
         public int ticketID;
+        public DateTime issueStartDate;
         public DateTime creationDate;
         public required string issueDescription;
         private bool isValid;
@@ -22,5 +23,6 @@ namespace NexcoApp.Classes
         {
             return false;
         }
+
     }
 }
