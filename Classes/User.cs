@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Firebase.Database;
+using Firebase.Database.Query;
 
 namespace NexcoApp.Classes
 {
@@ -26,14 +28,16 @@ namespace NexcoApp.Classes
 
         }
 
-        public void Login()
+        public void Login(FirebaseClient firebaseClient)
         {
-
+            firebaseClient.Child("Client").Child(key).PatchAsync(new { isLoggedIn = true });
+            isLoggedIn = true;
         }
 
-        public void Logout()
+        public void Logout(FirebaseClient firebaseClient)
         {
-
+            firebaseClient.Child("Client").Child(key).PatchAsync(new { isLoggedIn = false });
+            isLoggedIn = false;
         }
     }
 }

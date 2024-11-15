@@ -26,6 +26,7 @@ public partial class HomePage : ContentPage
                    if (item.Object.userID == cClient.userID)
                    {
                        cClient.key = item.Key;
+                       cClient.Login(firebaseClient);
                    }
                });
     }
@@ -33,6 +34,7 @@ public partial class HomePage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
+        cClient.Logout(firebaseClient);
         Navigation.RemovePage(this);
     }
 

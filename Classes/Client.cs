@@ -14,7 +14,7 @@ namespace NexcoApp.Classes
 
         public void generateTicket()
         {
-
+            
         }
         private bool confirmSubmission()
         {
