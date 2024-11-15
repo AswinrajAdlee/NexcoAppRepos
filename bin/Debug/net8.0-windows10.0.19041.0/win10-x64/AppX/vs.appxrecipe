@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-15T17:41:09.961</Modified>
+      <Modified>2024-11-15T20:41:54.549</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.dll">
       <PackagePath>NexcoApp.dll</PackagePath>
-      <Modified>2024-11-15T17:41:08.334</Modified>
+      <Modified>2024-11-15T20:41:53.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NexcoApp.exe</PackagePath>
-      <Modified>2024-11-15T17:41:08.407</Modified>
+      <Modified>2024-11-15T20:41:53.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aswin\OneDrive\Documents\GitHub\NexcoAppRepos\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

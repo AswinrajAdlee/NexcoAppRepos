@@ -25,8 +25,8 @@ public partial class GenerateTicket : ContentPage
         var severityPicker = new List<string> {
             "Select Severity Level",
             "Minor (Small impact on functionalities)",
-            "Critical (High Impact on functionalities)",
-            "Major (Medium impact on fuctionaliies)", };
+            "Major (Medium impact on fuctionaliies)",
+            "Critical (High Impact on functionalities)"};
         sPicker.ItemsSource = severityPicker;
         sPicker.SelectedIndex = 0;
     }
@@ -53,9 +53,10 @@ public partial class GenerateTicket : ContentPage
                     DateTime.Now,
                     "Open", 
                     sPicker.SelectedIndex);
+                await DisplayAlert("Success", "Ticket has been successfully submitted!", "Close");
+                Navigation.RemovePage(this);
             };
-            await DisplayAlert("Success", "Ticket has been successfully submitted!", "Close");
-            Navigation.RemovePage(this);
+            
         }
     }
 }

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\generateticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:generateticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|c:\\users\\aswin\\onedrive\\documents\\github\\nexcoapprepos\\classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\User.cs",
               "RelativeDocumentMoniker": "Classes\\User.cs",
               "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\User.cs",
               "RelativeToolTip": "Classes\\User.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T17:26:09.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TicketsDB.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\TicketsDB.cs",
               "RelativeDocumentMoniker": "Classes\\TicketsDB.cs",
@@ -67,57 +67,56 @@
               "RelativeToolTip": "Classes\\TicketsDB.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T23:21:22.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T23:21:22.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GenerateTicket.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\GenerateTicket.xaml.cs",
               "RelativeDocumentMoniker": "GenerateTicket.xaml.cs",
               "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\GenerateTicket.xaml.cs",
               "RelativeToolTip": "GenerateTicket.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAACwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T21:26:13.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\HomePage.xaml",
               "RelativeDocumentMoniker": "HomePage.xaml",
               "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\HomePage.xaml",
               "RelativeToolTip": "HomePage.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-08T21:05:21.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\HomePage.xaml.cs",
               "RelativeDocumentMoniker": "HomePage.xaml.cs",
               "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\HomePage.xaml.cs",
               "RelativeToolTip": "HomePage.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T21:04:18.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "LoginPage.xaml.cs",
               "ToolTip": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\LoginPage.xaml.cs",
               "RelativeToolTip": "LoginPage.xaml.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAAAC4AAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAC4AAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T18:08:40.402Z",
               "EditorCaption": ""
@@ -137,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\aswin\\OneDrive\\Documents\\GitHub\\NexcoAppRepos\\Classes\\Client.cs",
               "RelativeDocumentMoniker": "Classes\\Client.cs",

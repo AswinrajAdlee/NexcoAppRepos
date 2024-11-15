@@ -36,7 +36,7 @@ namespace NexcoApp.Classes
 
         public void Logout(FirebaseClient firebaseClient)
         {
-            firebaseClient.Child("Client").Child(key).PatchAsync(new { isLoggedIn = false });
+            firebaseClient.Child("Client").Child(key).PatchAsync(isLoggedIn = false );
             isLoggedIn = false;
         }
     }

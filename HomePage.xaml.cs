@@ -13,12 +13,14 @@ public partial class HomePage : ContentPage
     public HomePage(Client client, FirebaseClient firebase, ObservableCollection<Client> clientlist)
 	{
 		InitializeComponent();
+        NavigationPage.SetHasBackButton(this, false);
         cClient = client;
         firebaseClient = firebase;
         cClientlist = clientlist;
+   
 
-        // Set client key after login so that we can change database values later // 
-        var collection = firebaseClient
+    // Set client key after login so that we can change database values later // 
+    var collection = firebaseClient
                .Child("Client")
                .AsObservable<Client>()
                .Subscribe((item) =>
@@ -32,7 +34,7 @@ public partial class HomePage : ContentPage
     }
 
 
-    private void Button_Clicked(object sender, EventArgs e)
+    private async void Button_Clicked(object sender, EventArgs e)
     {
         cClient.Logout(firebaseClient);
         Navigation.RemovePage(this);
