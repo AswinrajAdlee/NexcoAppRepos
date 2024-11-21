@@ -18,6 +18,9 @@
     <MauiXaml Update="GenerateTicket.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="HomePageAgent.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="HomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -19,19 +19,20 @@ namespace NexcoApp.Classes
 
 
 
-        public async void addTicket(FirebaseClient firebaseClient, string ttype, string tTitle, string tDescription, Client cClient, DateTime tstartDate, DateTime tcreationDate,string tticketStatus, int tticketLevel)
+        public async void addTicket(FirebaseClient firebaseClient, string ttype, Ticket ticket)
         {
             await firebaseClient.Child(ttype).PostAsync(new Ticket
             {
-                title = tTitle,
-                issueDescription = tDescription,
-                clientInfo = cClient,
-                issueStartDate = tstartDate,
-                creationDate = tcreationDate,
+                title = ticket.title,
+                issueDescription = ticket.issueDescription,
+                clientInfo = ticket.clientInfo,
+                issueStartDate = ticket.issueStartDate,
+                creationDate = ticket.creationDate,
                 ticketID = await retrieveNextID(firebaseClient),
-                ticketStatus = tticketStatus,
-                ticketLevel = tticketLevel
+                ticketStatus = ticket.ticketStatus,
+                ticketLevel = ticket.ticketLevel
             });
+
 
         }
 

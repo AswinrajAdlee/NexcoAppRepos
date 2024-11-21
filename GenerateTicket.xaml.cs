@@ -13,7 +13,8 @@ public partial class GenerateTicket : ContentPage
     private Client cClient;
     FirebaseClient firebaseClient;
     ObservableCollection<Client> cClientlist;
-    private string key; 
+    private string key;
+    Ticket newTicket = new Ticket();
     public GenerateTicket(Client client, FirebaseClient firebase, ObservableCollection<Client> clientlist)
     {
         InitializeComponent();
@@ -39,26 +40,21 @@ public partial class GenerateTicket : ContentPage
         }
         else
         {
-            bool answer = await DisplayAlert("Verification", "Are all the information given true and correct?", "Submit", "Cancel");
-            if (answer == true)
-            {
-                TicketsDB ticketsDB = new TicketsDB();
-                ticketsDB.addTicket(
-                    firebaseClient, 
-                    "Open Ticket", 
-                    Title.Text, 
-                    Description.Text, 
-                    cClient, 
-                    MyDatePicker.Date, 
-                    DateTime.Now,
-                    "Open", 
-                    sPicker.SelectedIndex);
-                await DisplayAlert("Success", "Ticket has been successfully submitted!", "Close");
-                Navigation.RemovePage(this);
-            };
-            
+            setTicketInfo();
+            cClient.confirmSubmission(this, firebaseClient, newTicket);
         }
     }
+
+    private void setTicketInfo()
+    {
+        newTicket.title = Title.Text;
+        newTicket.issueDescription = Description.Text;
+        newTicket.issueStartDate = DateTime.Today;
+        newTicket.ticketLevel = sPicker.SelectedIndex;
+        newTicket.ticketStatus = "Open";
+        newTicket.clientInfo = cClient;
+    }
+
 }
 /*
 await firebaseClient.Child("Open Ticket").PostAsync(new Ticket

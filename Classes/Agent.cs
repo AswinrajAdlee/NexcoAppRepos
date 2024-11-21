@@ -8,7 +8,11 @@ namespace NexcoApp.Classes
 {
     public class Agent : User
     {
-        public string? agentRole;
+        public string? agentCode;
+        public bool isRegistered;
+        public string? companyStreetName;
+        public string? companyName;
+        public string? companyPostal;
 
 
 

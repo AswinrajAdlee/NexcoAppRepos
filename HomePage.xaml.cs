@@ -34,7 +34,7 @@ public partial class HomePage : ContentPage
     }
 
 
-    private async void Button_Clicked(object sender, EventArgs e)
+    private void Button_Clicked(object sender, EventArgs e)
     {
         cClient.Logout(firebaseClient);
         Navigation.RemovePage(this);
@@ -42,7 +42,7 @@ public partial class HomePage : ContentPage
 
     private void TicketsBtn_Clicked(object sender, EventArgs e)
     {
-        // Open Generate Tickets Page //
-        Navigation.PushAsync(new GenerateTicket(cClient, firebaseClient, cClientlist));
+        // Generate Tickets Page //
+        cClient.generateTicket(this, cClient, firebaseClient, cClientlist);
     }
 }

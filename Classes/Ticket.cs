@@ -8,13 +8,13 @@ namespace NexcoApp.Classes
 {
     public class Ticket
     {
-        public required string title;
+        public string title;
         public int ticketID;
         public DateTime issueStartDate;
         public DateTime creationDate;
-        public required string issueDescription;
+        public string issueDescription;
         private bool isValid;
-        public required Client clientInfo;
+        public Client clientInfo;
         public string? ticketStatus;
         public int ticketLevel;
 

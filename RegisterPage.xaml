@@ -2,13 +2,216 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NexcoApp.RegisterPage">
-    <VerticalStackLayout
+    <ScrollView x:Name="MyScrollView">
+        <VerticalStackLayout
         BackgroundColor="white"
-        Padding="20">
-        <Label 
-            Text="Register page"
-            TextColor="black"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+        Padding="0, 0"
+        Spacing="0">
+        <!-- Header -->
+        <Grid ColumnDefinitions="Auto, *" BackgroundColor="#f13006" Padding="5,10">
+            <Label
+                    Margin="0,15"
+                Grid.Column="1"
+                    Text="Registration"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+        </Grid>
+            <VerticalStackLayout
+                    Margin="20,10">
+
+                <!-- NEXCO NETWORKS LOGO -->
+                <Image
+                        Source="nexcologo.png"
+                        HeightRequest="90"
+                        Aspect="AspectFit"
+                        SemanticProperties.Description="Nexco Networks Logo"
+                        Margin="0,0,0,10"
+                        HorizontalOptions="Start"/>
+                <HorizontalStackLayout>
+                    <!-- First Name-->
+                    <Frame
+                            BorderColor="Gray"
+                            CornerRadius="10"
+                            BackgroundColor="White"
+                            Padding="0"
+                            WidthRequest="175"
+                            Margin="0,0,0,20">
+                        <Entry
+                                x:Name="fNameText"
+                                Placeholder="First Name"
+                                TextColor="Black"
+                                FontSize="16"
+                                BackgroundColor="Transparent"/>
+                    </Frame>
+                    <!-- Last Name -->
+                    <Frame
+                        BorderColor="Gray"
+                        CornerRadius="10"
+                        BackgroundColor="White"
+                        Padding="0"
+                        WidthRequest="175"
+                        Margin="10,0,0,20">
+                        <Entry
+                            x:Name="lNameText"
+                            Placeholder="Last Name"
+                            TextColor="Black"
+                            FontSize="16"
+                            BackgroundColor="Transparent"/>
+                    </Frame>
+                </HorizontalStackLayout>
+                <!-- Email Textbox-->
+                <Frame
+                        BorderColor="Gray"
+                        BackgroundColor="White"
+                        CornerRadius="10"
+                        Padding="0">
+                    <Entry
+                            x:Name="EmailText"
+                            Placeholder="Email"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            FontSize="16"/>
+                </Frame>
+                <!-- PASSWORD TEXTBOX -->
+                <Frame
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,20,0,0">
+                    <Entry
+                       x:Name="PasswordText"
+                       TextChanged="PasswordText_TextChanged"
+                       IsPassword= "True"
+                       Placeholder="Password"
+                       TextColor="Black"
+                       FontSize="16"
+                       BackgroundColor="Transparent"/>
+                </Frame>
+                <Label
+                    Text="Must be at least 8 characters"
+                    TextColor="black"
+                    Margin="10,0,0,10"/>
+                <!-- Confirm Password Box-->
+                <Frame
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,0">
+                    <Entry
+                        x:Name="ConfirmPasswordText"
+                        TextChanged="ConfirmPasswordText_TextChanged"
+                        IsPassword= "True"
+                        Placeholder="Confirm Password"
+                        TextColor="Black"
+                        FontSize="16"
+                        BackgroundColor="Transparent"/>
+                </Frame>
+                <!-- Company Name -->
+                <Frame
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,20">
+                    <Entry
+                        x:Name="CompanyName"
+                        Placeholder="Company Name"
+                        TextColor="Black"
+                        FontSize="16"
+                        BackgroundColor="Transparent"/>
+                </Frame>
+                <!-- Company Street Address -->
+                <Frame
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,0">
+                    <Entry
+                        x:Name="CompanyAddressStreet"
+                        Placeholder="Company Address (street name)"
+                        TextColor="Black"
+                        FontSize="16"
+                        BackgroundColor="Transparent"/>
+                </Frame>
+                <!-- Company Postal Code -->
+                <Frame
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,20">
+                    <Entry
+                        x:Name="CompanyAddressPostal"
+                        Placeholder="Postal Code"
+                        TextColor="Black"
+                        FontSize="16"
+                        BackgroundColor="Transparent"
+                        MaxLength="6"
+                        TextTransform="Uppercase"/>
+                </Frame>
+                <!-- Register Button -->
+                <Button
+                    x:Name="RegisterBtn"
+                    Margin="0,20,0,0"
+                    FontSize="24"
+                    WidthRequest="250"
+                    Text="Get Started"
+                    Clicked="RegisterBtn_Clicked"
+                    HorizontalOptions="CenterAndExpand" 
+                    BackgroundColor="#f13006"
+                    TextColor="White"/>
+                <HorizontalStackLayout
+                    HorizontalOptions="Center"
+                    Margin="0,2">
+                    <!-- Return to Login -->
+                    <Label
+                        Text="Already have an account?"
+                        TextColor="Black"
+                        HorizontalOptions="Center"/>
+                    <Button
+                        Text=" Login"
+                        Clicked="ReturnLoginButton_Clicked"
+                        TextColor="Red"
+                        Margin="-12,-13,0,0"
+                        Background="Transparent"
+                        HorizontalOptions="Center"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label
+                        Text="Apply as an Agent?"
+                        TextColor="Black"
+                        Margin="0,10,0,0"
+                    />
+                    <CheckBox
+                            x:Name="AgentCheckBox"
+                            Color="gray"
+                            CheckedChanged="CheckBox_CheckedChanged"/>
+                </HorizontalStackLayout>
+                <Frame
+                    x:Name="AgentBox"
+                    BorderColor="Gray"
+                    CornerRadius="10"
+                    BackgroundColor="White"
+                    Padding="0"
+                    Margin="0,10"
+                    IsVisible="False">
+                    <Entry
+                      x:Name="AgentCode"
+                      Placeholder="Agent Code"
+                      TextColor="Black"
+                      FontSize="16"
+                      BackgroundColor="Transparent"
+                      MaxLength="6"
+                      TextTransform="Uppercase"/>
+                  </Frame>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

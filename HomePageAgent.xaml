@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NexcoApp.HomePageAgent"
+             NavigationPage.HasBackButton="False">
+    <VerticalStackLayout
+        BackgroundColor="white"
+        Padding="0, 0"
+        Spacing="0"> <!-- NexcoNetworks image -->
+        <Grid ColumnDefinitions="Auto, *" BackgroundColor="#1c1b19" Padding="5,10">
+            <Image
+                Margin="10,0"
+                Source="nexcologo_white.png"
+                WidthRequest="90"
+                Grid.Column="0"
+             />
+            <ScrollView Orientation="Horizontal" Grid.Column="1">
+                <HorizontalStackLayout>
+                    <Label
+                        x:Name="WelcomeMsg"
+                        Text="Welcome Agent!"
+                        VerticalTextAlignment="Center"
+                        Margin="10,0,0,0"/>
+                </HorizontalStackLayout>
+            </ScrollView>
+        </Grid>
+        <Label
+            Padding="0,75,0,0"
+            FontFamily="Sans"
+            Text="Agent Menu"
+            FontSize="20"
+            FontAttributes="Bold"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            />
+        <Button
+            Text="Profile"
+            Margin="75,50,75,0"
+            TextColor="White"
+            BackgroundColor="DarkRed"
+            />
+        <Button
+            Text="Ticket"
+            Margin="75,15,75,0"
+            TextColor="White"
+            BackgroundColor="DarkRed"
+            />
+        <Button
+            Text="Logout"
+            Clicked="Button_Clicked"
+            Margin="75,15,75,0"
+            TextColor="White"
+            BackgroundColor="DarkRed"
+            />
+    </VerticalStackLayout>
+</ContentPage>

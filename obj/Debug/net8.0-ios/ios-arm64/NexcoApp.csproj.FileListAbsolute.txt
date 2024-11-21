@@ -938,3 +938,4 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\NexcoApp.pdb
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\NexcoApp.genruntimeconfig.cache
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\ref\NexcoApp.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\build-signature\signature
