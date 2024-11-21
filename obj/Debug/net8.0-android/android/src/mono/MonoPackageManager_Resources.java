@@ -3,9 +3,11 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "NexcoApp.dll" comes first in this list. */
 		"NexcoApp.dll",
+		"BouncyCastle.Cryptography.dll",
 		"Firebase.dll",
 		"GoogleGson.dll",
 		"LiteDB.dll",
+		"MailKit.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
 		"Microsoft.Extensions.DependencyInjection.dll",
@@ -21,8 +23,10 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"MimeKit.dll",
 		"Newtonsoft.Json.dll",
 		"System.Reactive.dll",
+		"System.Security.Cryptography.Pkcs.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

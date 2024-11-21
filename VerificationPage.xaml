@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NexcoApp.VerificationPage">
+    <ScrollView x:Name="MyScrollView">
+        <VerticalStackLayout
+        BackgroundColor="white"
+        Padding="0, 0"
+        Spacing="0">
+            <!-- Header -->
+            <Grid ColumnDefinitions="Auto, *" BackgroundColor="#f13006" Padding="5,10">
+                <Label
+                    Margin="0,15"
+                Grid.Column="1"
+                    Text="Verification"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+            </Grid>
+            <VerticalStackLayout
+                    Margin="20,10">
+
+                <!-- NEXCO NETWORKS LOGO -->
+                <Image
+                        Source="nexcologo.png"
+                        HeightRequest="90"
+                        Aspect="AspectFit"
+                        SemanticProperties.Description="Nexco Networks Logo"
+                        Margin="0,0,0,20"
+                        HorizontalOptions="Center"/>
+                <Label
+                    x:Name="VerificationText"
+                    Text="Please enter the code sent to your email!"
+                    FontFamily="Sans"
+                    FontSize="16"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    IsVisible="Visible"
+                    Margin="0,0,0,20"/>
+                <Image
+                    Source="email.png"
+                    x:Name="emailImage"
+                    HeightRequest="200"
+                    Aspect="AspectFit"
+                    Margin="0,0,0,10"
+                    HorizontalOptions="Center"
+                    Opacity="0"
+                    IsVisible="False"/>
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand"
+                                       x:Name="TheBox">
+                    <Entry
+                        x:Name="FirstEntry"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,5,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        TextChanged="Entry_TextChanged"
+                        MaxLength="1"/>
+                    <Entry
+                        x:Name="SecondEntry"
+                        TextChanged="SecondEntry_TextChanged"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,5,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        MaxLength="1"/>
+                    <Entry
+                        x:Name="ThirdEntry"
+                        TextChanged="ThirdEntry_TextChanged"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,5,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        MaxLength="1"/>
+                    <Entry
+                        x:Name="FourthEntry"
+                        TextChanged="FourthEntry_TextChanged"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,5,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        MaxLength="1"/>
+                    <Entry
+                        x:Name="FifthEntry"
+                        TextChanged="FifthEntry_TextChanged"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,5,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        MaxLength="1"/>
+                    <Entry
+                        x:Name="SixthEntry"
+                        TextChanged="SixthEntry_TextChanged"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        HorizontalTextAlignment="Center"
+                        Margin="0,0,10,0"
+                        TextColor="black"
+                        BackgroundColor="LightGray"
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        MaxLength="1"/>
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

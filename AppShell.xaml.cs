@@ -10,6 +10,7 @@
             Routing.RegisterRoute("generateticket", typeof(GenerateTicket));
             Routing.RegisterRoute("registerpage", typeof(RegisterPage));
             Routing.RegisterRoute("homepageagent", typeof(HomePageAgent));
+            Routing.RegisterRoute("verificationpage", typeof(VerificationPage));
         }
     }
 }

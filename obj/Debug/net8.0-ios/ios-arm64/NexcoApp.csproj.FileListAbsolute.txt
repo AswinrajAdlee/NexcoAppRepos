@@ -939,3 +939,7 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-io
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\NexcoApp.genruntimeconfig.cache
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\ref\NexcoApp.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-ios\ios-arm64\build-signature\signature
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\BouncyCastle.Cryptography.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\MailKit.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\MimeKit.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-ios\ios-arm64\System.Security.Cryptography.Pkcs.dll

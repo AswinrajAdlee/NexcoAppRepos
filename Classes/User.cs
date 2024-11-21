@@ -23,14 +23,26 @@ namespace NexcoApp.Classes
         public string key;
         
    
-        public void Registration()
+        public async void Registration(Client cClient)
         {
-
+            FirebaseClient firebaseClient = new FirebaseClient("https://nexcodb-default-rtdb.firebaseio.com/");
+            await firebaseClient.Child("Client").PostAsync(new Client
+            {
+                fName = cClient.fName,
+                lName = cClient.lName,
+                companyName = cClient.companyName,
+                companyStreet = cClient.companyStreet,
+                companyPostal = cClient.companyPostal,
+                email = cClient.email,
+                password = cClient.password,
+                userID = cClient.userID,
+                isVerified = true,
+            });
         }
 
         public void Login(FirebaseClient firebaseClient)
         {
-            firebaseClient.Child("Client").Child(key).PatchAsync(new { isLoggedIn = true });
+            firebaseClient.Child("Client").Child(key).PatchAsync( isLoggedIn = true );
             isLoggedIn = true;
         }
 

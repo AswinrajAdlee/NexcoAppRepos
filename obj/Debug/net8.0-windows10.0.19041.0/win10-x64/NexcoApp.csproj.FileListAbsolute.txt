@@ -558,3 +558,4 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-wi
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MailKit.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MimeKit.dll
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\System.Security.Cryptography.Pkcs.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png

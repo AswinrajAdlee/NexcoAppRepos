@@ -1,17 +1,23 @@
 namespace NexcoApp;
 using Firebase.Database;
 using Firebase.Database.Query;
+using MailKit;
+using Microsoft.Maui.ApplicationModel.Communication;
 using NexcoApp.Classes;
+using Org.BouncyCastle.Bcpg;
 using System.Collections.ObjectModel;
 using System.Reflection;
+using Windows.System;
 
 public partial class RegisterPage : ContentPage
 {
-    private Agent aAgent;
+    private Agent? aAgent;
 	FirebaseClient firebaseClient;
     ObservableCollection<Agent> ?Agentlist;
     ObservableCollection<Client>? Clientlist;
     bool clientFound = false;
+    public string fFname, lLname, cCompanyName,companyAddress, companyPostal, userEmail, userPass;
+    public int ID;
 
     public RegisterPage(FirebaseClient firebase, ObservableCollection<Agent> agentlist, ObservableCollection<Client>? clientList)
 	{
@@ -26,9 +32,10 @@ public partial class RegisterPage : ContentPage
     private async void RegisterBtn_Clicked(object sender, EventArgs e)
     {
         // Check to see if everything is filled out //
-        if (fNameText.Text == null || lNameText.Text == null || EmailText.Text == null || ConfirmPasswordText.TextColor != Colors.LightGreen || CompanyName.Text == null || CompanyAddressStreet == null || CompanyAddressPostal == null)
+        if (fNameText.Text == null || lNameText.Text == null || EmailText.Text == null || ConfirmPasswordText.TextColor != Colors.LightGreen || CompanyName.Text == null || CompanyAddressStreet == null || CompanyAddressPostal.Text.Length < 6)
         {
-            await DisplayAlert("Error", "Make sure to fill out all requiredi information", "Accept");
+            await DisplayAlert("Error", "Make sure to fill out all required information", "Accept");
+            return;
         }
         // Check if "Register as Agent" is checked // 
         else if (AgentCheckBox.IsChecked == true)
@@ -45,7 +52,7 @@ public partial class RegisterPage : ContentPage
                     .AsObservable<Agent>()
                     .Subscribe((itemAgent2) =>
                      {
-                        if (itemAgent2.Object.agentCode == AgentCode.Text)
+                         if (itemAgent2.Object.agentCode == AgentCode.Text)
                          {
                              // Update db once found and not registered //
                              firebaseClient.Child("Agent").Child(itemAgent2.Key).PatchAsync(new
@@ -60,8 +67,9 @@ public partial class RegisterPage : ContentPage
                                  userID = (Clientlist.ToArray().Length + Agentlist.ToArray().Length + 1),
                                  isRegistered = true,
                              });
+                             return;
                          }
-                    });
+                     });
                 }
             });
             // Agent code not found in db //
@@ -82,8 +90,20 @@ public partial class RegisterPage : ContentPage
                 }
             });
         }
-        if(clientFound == false)
+        if (clientFound == false && AgentCheckBox.IsChecked == false)
         {
+
+            EmailService emailService = new EmailService();
+            string token = emailService.generateEmailVerificationToken();
+            await emailService.sendEmail(this, EmailText.Text, token);
+            fFname = fNameText.Text;
+            lLname = lNameText.Text;
+            cCompanyName = CompanyName.Text;
+            companyAddress = CompanyAddressStreet.Text;
+            companyPostal = CompanyAddressPostal.Text;
+            userEmail = EmailText.Text;
+            userPass = PasswordText.Text;
+            ID = (Clientlist.ToArray().Length + Agentlist.ToArray().Length + 1);
 
         }
     }

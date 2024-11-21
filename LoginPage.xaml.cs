@@ -90,41 +90,6 @@ namespace NexcoApp
 
             
         }
-
-        // Test button // 
-        private async void Counter_Clicked(object sender, EventArgs e)
-        {
-            bool found = false;
-            Client.ToList().ForEach(item =>
-            {
-                if ((item.email == EmailText.Text))
-                {
-                    found = true;
-                    if (item.password == PasswordText.Text && item.isVerified == true)
-                    {
-                        Navigation.PushAsync(new HomePage(item, firebaseClient, Client));
-                    }
-                }
-               
-            });
-            // create new client with email and pass if it doesnt exist already (testing purposes) // 
-            if (found == false) 
-            {
-                EmailService emailService = new EmailService();
-                string token = emailService.generateEmailVerificationToken();
-                await emailService.sendEmail("cribatman123@gmail.com", token);
-
-                /*
-                firebaseClient.Child("Agent").PostAsync(new Client
-                {
-                    email = EmailText.Text,
-                    password = PasswordText.Text,
-                    userID = (Client.ToArray().Length + Agent.ToArray().Length + 1),
-                });
-                */
-            }
-        }
-
         private void Button_Clicked(object sender, EventArgs e)
         {
             // Navigate to Register Page (Passing through firebase database) //

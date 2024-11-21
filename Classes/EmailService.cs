@@ -8,14 +8,39 @@ using MimeKit;
 using System.Net.Mail;
 using System.Net;
 using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+using Firebase.Database;
 
 namespace NexcoApp.Classes
 {
     public class EmailService
     {
         public string ?email;
-        public async Task sendEmail(string userEmail, string verificationToken)
+        // Just verify email format //
+        private bool IsValidEmail(string email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            try
+            {
+                // Regex for validating email format
+                var regex = new Regex(@"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+                return regex.IsMatch(email);
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public async Task sendEmail(RegisterPage registerPageref, string userEmail, string verificationToken)
+        {
+            if (!IsValidEmail(userEmail))
+            {
+                await registerPageref.DisplayAlert("Email error", "Please enter a valid email address", "Accept");
+                return;
+            }
             try
             {
                 // Create a unique verification URL
@@ -32,7 +57,7 @@ namespace NexcoApp.Classes
                 // Create the email message
                 var mailMessage = new MailMessage
                 {
-                    From = new MailAddress("your-email@gmail.com"),
+                    From = new MailAddress("NexcoNetTest@gmail.com"),
                     Subject = "Nexco Networks Email Verification",
                     Body = $"Your six characer verification code is: {verificationToken}",
                     IsBodyHtml = false
@@ -44,9 +69,11 @@ namespace NexcoApp.Classes
                 await smtpClient.SendMailAsync(mailMessage);
 
                 Console.WriteLine("Verification email sent successfully.");
+                await registerPageref.Navigation.PushAsync(new VerificationPage(userEmail, verificationToken, registerPageref));
             }
             catch (Exception ex)
             {
+                await registerPageref.DisplayAlert("Email error", ex.Message, "Accept");
                 Console.WriteLine($"Failed to send verification email: {ex.Message}");
             }
         }

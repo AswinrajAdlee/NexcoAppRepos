@@ -2272,3 +2272,9 @@ G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-an
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\app_shared_libraries\armeabi-v7a\libxamarin-app.so
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\app_shared_libraries\x86\libxamarin-app.so
 G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\BouncyCastle.Cryptography.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\MailKit.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\MailKit.pdb
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\MimeKit.dll
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\MimeKit.pdb
+G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-android\android\assets\System.Security.Cryptography.Pkcs.dll
