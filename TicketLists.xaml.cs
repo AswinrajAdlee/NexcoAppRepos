@@ -9,27 +9,37 @@ public partial class TicketLists : ContentPage
 {
 	FirebaseClient firebaseClient = new FirebaseClient("https://nexcodb-default-rtdb.firebaseio.com/");
     public ObservableCollection<Ticket> OpenTickets { get; set; } = new ObservableCollection<Ticket>();
-    public TicketLists()
+    public TicketLists(string pageTitle)
 	{
 		InitializeComponent();
         BindingContext = this;
+        Title.Text = pageTitle;
 
-        var collectionAgent = firebaseClient
-                .Child("Open Ticket")
-                .AsObservable<Ticket>()
-                .Subscribe((item) =>
-                {
-                    if (item.Object != null)
+        // If open tickets, then get open tickets from db //
+        if (pageTitle == "Open Tickets")
+        {
+            var collectionAgent = firebaseClient
+                    .Child("Open Ticket")
+                    .AsObservable<Ticket>()
+                    .Subscribe((item) =>
                     {
-                        var newTicket = new Ticket
+                        if (item.Object != null)
                         {
-                            title = item.Object.title,
-                            issueDescription = item.Object.clientInfo.fName + " " + item.Object.clientInfo.lName,
-                            creationDate = item.Object.creationDate,
-                        };
-                        OpenTickets.Add(newTicket);
-                    }
-                });
+                            var newTicket = new Ticket
+                            {
+                                title = item.Object.title,
+                                issueDescription = item.Object.clientInfo.fName + " " + item.Object.clientInfo.lName,
+                                creationDate = item.Object.creationDate,
+                            };
+                            OpenTickets.Add(newTicket);
+                        }
+                    });
+        }
+    }
 
+    // Open Tickets Resolver //
+    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        Navigation.PushAsync(new TicketResolve());
     }
 }

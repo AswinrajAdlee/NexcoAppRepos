@@ -28,8 +28,12 @@ public partial class RegisterPage : ContentPage
 
     }
 
+    // Register Button Clicked // 
     private async void RegisterBtn_Clicked(object sender, EventArgs e)
     {
+            
+        ButtonPressDelay();
+        
         // Check to see if everything is filled out //
         if (fNameText.Text == null || lNameText.Text == null || EmailText.Text == null || ConfirmPasswordText.TextColor != Colors.LightGreen || CompanyName.Text == null || CompanyAddressStreet == null || CompanyAddressPostal.Text.Length < 6)
         {
@@ -89,6 +93,7 @@ public partial class RegisterPage : ContentPage
                 }
             });
         }
+        // Send Email // 
         if (clientFound == false && AgentCheckBox.IsChecked == false)
         {
 
@@ -107,11 +112,24 @@ public partial class RegisterPage : ContentPage
         }
     }
 
+
+    private async void ButtonPressDelay()
+    {
+        RegisterBtn.Opacity = 0.8;
+        RegisterBtn.IsEnabled = false;
+        await Task.Delay(5000);
+        RegisterBtn.Opacity = 1;
+        RegisterBtn.IsEnabled = true;
+    }
+
+
+    // Return button pressed // 
     private void ReturnLoginButton_Clicked(object sender, EventArgs e)
     {
         Navigation.RemovePage(this);
     }
 
+    // Check if password is greater than 8 characters long //
     private void PasswordText_TextChanged(object sender, TextChangedEventArgs e)
     {
         if (PasswordText.Text.Length >= 8)
@@ -123,7 +141,7 @@ public partial class RegisterPage : ContentPage
             PasswordText.TextColor = Color.FromArgb("#f13006");
         }
     }
-
+    // Check if confirm password box is same as password //
     private void ConfirmPasswordText_TextChanged(object sender, TextChangedEventArgs e)
     {
         if (ConfirmPasswordText.Text == PasswordText.Text && PasswordText.TextColor == Colors.LightGreen)
@@ -135,7 +153,7 @@ public partial class RegisterPage : ContentPage
             ConfirmPasswordText.TextColor = Color.FromArgb("#f13006");
         }
     }
-
+    // Agent check box pressed //
     private async void CheckBox_CheckedChanged(object sender, CheckedChangedEventArgs e)
     {
         if (AgentCheckBox.IsChecked) 

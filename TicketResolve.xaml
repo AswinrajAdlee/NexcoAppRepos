@@ -8,9 +8,9 @@
     Padding="0, 0"
     Spacing="0">
             <!-- Header -->
-            <Grid ColumnDefinitions="Auto, *" BackgroundColor="#C52323" Padding="5,10">
+            <Grid ColumnDefinitions="Auto, *" BackgroundColor="Black" Padding="5,10">
                 <Label
-                Margin="0,15"
+                Margin="0,0"
             Grid.Column="1"
                 Text="Ticket Resolve"
                 FontSize="Large"

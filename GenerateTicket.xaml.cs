@@ -1,5 +1,6 @@
 namespace NexcoApp;
 
+
 using Firebase.Database;
 using Firebase.Database.Query;
 using NexcoApp.Classes;
@@ -23,6 +24,7 @@ public partial class GenerateTicket : ContentPage
         cClientlist = clientlist;
         MyDatePicker.MaximumDate = DateTime.Today;
 
+        // Set severity picker drop menu visuals //
         var severityPicker = new List<string> {
             "Select Severity Level",
             "Minor (Small impact on functionalities)",
@@ -32,6 +34,7 @@ public partial class GenerateTicket : ContentPage
         sPicker.SelectedIndex = 0;
     }
 
+    // Submit clicked //
     private async void SubmitBtn_Clicked(object sender, EventArgs e)
     {
         if (Title.Text == null || Description.Text == null || sPicker.SelectedIndex == 0)
@@ -44,7 +47,7 @@ public partial class GenerateTicket : ContentPage
             cClient.confirmSubmission(this, firebaseClient, newTicket);
         }
     }
-
+    // Set ticket info //
     private void setTicketInfo()
     {
         newTicket.title = Title.Text;
@@ -55,7 +58,15 @@ public partial class GenerateTicket : ContentPage
         newTicket.clientInfo = cClient;
         newTicket.creationDate = DateTime.Now;
     }
-
+    // Cancel clicked //
+    private async void CancelBtn_Clicked(object sender, EventArgs e)
+    {
+        bool answer = await DisplayAlert("Alert", "Are you sure you want to cance? All information will be deleted", "Confirm", "Return");
+        if (answer == true)
+        {
+            Navigation.RemovePage(this);
+        }
+    }
 }
 /*
 await firebaseClient.Child("Open Ticket").PostAsync(new Ticket

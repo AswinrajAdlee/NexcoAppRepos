@@ -38,6 +38,7 @@
                     HorizontalOptions="Center"
                     IsVisible="Visible"
                     Margin="0,0,0,20"/>
+                <!-- Email image -->
                 <Image
                     Source="email.png"
                     x:Name="emailImage"
@@ -47,6 +48,7 @@
                     HorizontalOptions="Center"
                     Opacity="0"
                     IsVisible="False"/>
+                <!-- All input boxes -->
                 <HorizontalStackLayout HorizontalOptions="CenterAndExpand"
                                        x:Name="TheBox">
                     <Entry

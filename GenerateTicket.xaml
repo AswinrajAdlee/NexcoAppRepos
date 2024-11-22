@@ -73,7 +73,7 @@
             Padding="10,10,0,0"/>
         <DatePicker 
             x:Name="MyDatePicker"
-            BackgroundColor="darkred"
+            BackgroundColor="#C52323"
             Margin="10,10" 
             />
         <!-- Severity Level -->
@@ -88,19 +88,28 @@
         <Picker x:Name="sPicker"
                 Title="Select Severity Level"
                 TitleColor="black"
-                BackgroundColor="DarkRed"
+                BackgroundColor="#C52323"
                 ItemsSource="{Binding severityPicker}"
                 Margin="10,0,75,30">
         </Picker>
 
-
+        <!-- Submit Button -->
         <Button
             x:Name="SubmitBtn"
-            BackgroundColor="Darkred"
+            BackgroundColor="#C52323"
             TextColor="white"
             Text="Submit"
             Clicked="SubmitBtn_Clicked" 
-            Margin="100,80"/>
+            Margin="100,0"/>
+
+        <!-- Cancel Button -->
+        <Button
+            x:Name="CancelBtn"
+            BackgroundColor="#C52323"
+            TextColor="white"
+            Text="Cancel"
+            Clicked="CancelBtn_Clicked" 
+            Margin="100,10,100,10"/>
 
     </VerticalStackLayout>
 </ContentPage>

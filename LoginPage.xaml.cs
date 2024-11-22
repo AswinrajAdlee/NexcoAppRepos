@@ -24,7 +24,7 @@ namespace NexcoApp
                         Client.Add(item.Object);
                     }
                 });
-
+            // Retrieve Agents // 
             var collectionAgent = firebaseClient
                 .Child("Agent")
                 .AsObservable<Agent>()

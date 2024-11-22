@@ -10,13 +10,14 @@
             <!-- Header -->
             <Grid ColumnDefinitions="Auto, *" BackgroundColor="black" Padding="5,10">
                 <Label
-                Margin="0,0"
-                Grid.Column="1"
-                Text="Tickets List"
-                FontSize="Large"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"/>
+                    Margin="0,0"
+                    x:Name="Title"
+                    Grid.Column="1"
+                    Text="Tickets List"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
             </Grid>
             <CollectionView x:Name="TicketsCollectionView" ItemsSource="{Binding OpenTickets}" Margin="15">
                 <CollectionView.ItemsLayout>
@@ -25,6 +26,9 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Frame BorderColor="Gray" Padding="10" Margin="10" BackgroundColor="WhiteSmoke">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            </Frame.GestureRecognizers>
                             <StackLayout>
                                 <Label Text="{Binding title}" TextColor="Black"/>
                                 <Label Text="{Binding issueDescription}" TextColor="gray"/>

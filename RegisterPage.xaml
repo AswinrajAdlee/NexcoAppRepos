@@ -181,7 +181,8 @@
                         Background="Transparent"
                         HorizontalOptions="Center"/>
                 </HorizontalStackLayout>
-
+                
+                <!-- Apply as an agent? -->
                 <HorizontalStackLayout>
                     <Label
                         Text="Apply as an Agent?"

@@ -29,7 +29,7 @@
     <AppXManifest Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-22T01:21:37.029</Modified>
+      <Modified>2024-11-22T04:20:11.659</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.dll">
       <PackagePath>NexcoApp.dll</PackagePath>
-      <Modified>2024-11-22T01:21:36.457</Modified>
+      <Modified>2024-11-22T04:20:11.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NexcoApp.exe</PackagePath>
-      <Modified>2024-11-22T01:21:36.576</Modified>
+      <Modified>2024-11-22T04:20:11.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
