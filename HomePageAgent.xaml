@@ -38,20 +38,21 @@
             Text="Profile"
             Margin="75,50,75,0"
             TextColor="White"
-            BackgroundColor="DarkRed"
+            BackgroundColor="#C52323"
             />
         <Button
+            Clicked="Button_Clicked_2"
             Text="Ticket"
             Margin="75,15,75,0"
             TextColor="White"
-            BackgroundColor="DarkRed"
+            BackgroundColor="#C52323"
             />
         <Button
             Text="Logout"
             Clicked="Button_Clicked"
             Margin="75,15,75,0"
             TextColor="White"
-            BackgroundColor="DarkRed"
+            BackgroundColor="#C52323"
             />
     </VerticalStackLayout>
 </ContentPage>

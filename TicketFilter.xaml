@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NexcoApp.TicketFilter">
+    <ScrollView x:Name="MyScrollView">
+        <VerticalStackLayout
+      BackgroundColor="white"
+      Padding="0, 0"
+      Spacing="0">
+            <!-- Header -->
+            <Grid ColumnDefinitions="Auto, *" BackgroundColor="black" Padding="5,10">
+                <Label
+                  Margin="0,0"
+              Grid.Column="1"
+                  Text="Tickets Filter"
+                  FontSize="Large"
+                  FontAttributes="Bold"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"/>
+            </Grid>
+            <HorizontalStackLayout Margin="20,20,0,20" HorizontalOptions="Start">
+                <Label
+                    Text="Open Tickets"
+                    FontFamily="sans"
+                    TextColor="Black"
+                    Padding="10"
+                    FontSize="24"/>
+                <Button
+                    Clicked="Button_Clicked"
+                    HeightRequest="40"
+                    MaximumHeightRequest="50"
+                    BackgroundColor="LightGray"/>
+            </HorizontalStackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+            <HorizontalStackLayout Margin="20,20" HorizontalOptions="Start">
+                <Label
+                    Text="Pending Tickets"
+                    FontFamily="sans"
+                    TextColor="Black"
+                    Padding="10"
+                    FontSize="24"/>
+                <Button
+                    HeightRequest="40"
+                    MaximumHeightRequest="50"
+                    BackgroundColor="LightGray"/>
+            </HorizontalStackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -52,7 +52,7 @@
                 Clicked="LoginBtn_Clicked"
                 SemanticProperties.Hint="Opens Login Menu"
                 HorizontalOptions="CenterAndExpand" 
-                BackgroundColor="DarkRed"
+                BackgroundColor="#C52323"
                 TextColor="White"/>
             
             <!-- DON'T HAVE ACOUNT? REGISTER -->
@@ -70,7 +70,7 @@
                     SemanticProperties.Hint="Opens Registration Menu"
                     BackgroundColor="Transparent"
                     BorderColor="Transparent"
-                    TextColor="DarkRed"
+                    TextColor="#C52323"
                     Grid.Column="2"
                     Grid.Row="2"
                     VerticalOptions="Center"

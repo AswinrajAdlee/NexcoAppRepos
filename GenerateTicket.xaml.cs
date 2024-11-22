@@ -53,6 +53,7 @@ public partial class GenerateTicket : ContentPage
         newTicket.ticketLevel = sPicker.SelectedIndex;
         newTicket.ticketStatus = "Open";
         newTicket.clientInfo = cClient;
+        newTicket.creationDate = DateTime.Now;
     }
 
 }

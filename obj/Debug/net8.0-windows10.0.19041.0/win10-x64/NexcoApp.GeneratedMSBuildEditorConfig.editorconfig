@@ -73,6 +73,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.Resources.Styles.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/TicketFilter.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketFilter.xaml
+build_metadata.AdditionalFiles.TargetPath = TicketFilter.xaml
+build_metadata.AdditionalFiles.RelativePath = TicketFilter.xaml
+
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/TicketLists.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketLists.xaml
+build_metadata.AdditionalFiles.TargetPath = TicketLists.xaml
+build_metadata.AdditionalFiles.RelativePath = TicketLists.xaml
+
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/TicketResolve.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketResolve.xaml
+build_metadata.AdditionalFiles.TargetPath = TicketResolve.xaml
+build_metadata.AdditionalFiles.RelativePath = TicketResolve.xaml
+
 [G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/VerificationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.VerificationPage.xaml

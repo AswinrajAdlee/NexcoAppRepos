@@ -90,7 +90,7 @@
             Clicked="Button_Clicked"
             Margin="100,20"
             TextColor="White"
-            BackgroundColor="DarkRed"
+            BackgroundColor="#C52323"
             />
     </VerticalStackLayout>
 </ContentPage>

@@ -7,7 +7,6 @@ using NexcoApp.Classes;
 using Org.BouncyCastle.Bcpg;
 using System.Collections.ObjectModel;
 using System.Reflection;
-using Windows.System;
 
 public partial class RegisterPage : ContentPage
 {

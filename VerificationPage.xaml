@@ -8,7 +8,7 @@
         Padding="0, 0"
         Spacing="0">
             <!-- Header -->
-            <Grid ColumnDefinitions="Auto, *" BackgroundColor="#f13006" Padding="5,10">
+            <Grid ColumnDefinitions="Auto, *" BackgroundColor="#C52323" Padding="5,10">
                 <Label
                     Margin="0,15"
                 Grid.Column="1"
