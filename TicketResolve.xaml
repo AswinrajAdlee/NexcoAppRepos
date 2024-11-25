@@ -10,7 +10,7 @@
             <!-- Header -->
             <Grid ColumnDefinitions="Auto, *" BackgroundColor="Black" Padding="5,10">
                 <Label
-                Margin="0,0"
+                Margin="0"
             Grid.Column="1"
                 Text="Ticket Resolve"
                 FontSize="Large"
@@ -18,6 +18,162 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
             </Grid>
+
+            <!-- Subject Title -->
+            <Label
+                Text="Subject"
+                TextColor="Black"
+                FontSize="20"
+                FontFamily="Arial"
+                Padding="10,20,0,0"/>
+            <Border
+                Stroke="black"
+                StrokeThickness="1"
+                Padding="0,0,0,0"
+                Margin="10,10">
+                <Label
+                    Padding="10,5"
+                    LineBreakMode="WordWrap"
+                    x:Name="ticketSubject"
+                    TextColor="black"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Start"
+                    BackgroundColor="LightGray"/>
+            </Border>
+
+
+            <!-- Issue Description -->
+            <Label
+                Text="Issue Description"
+                TextColor="Black"
+                FontSize="20"
+                FontFamily="Arial"
+                Padding="10,10,0,0"/>
+            <Border
+                Stroke="black"
+                StrokeThickness="1"
+                Padding="0,0,0,0"
+                Margin="10,10">
+                <Label
+                    Padding="10,5"
+                    MinimumHeightRequest="120"
+                    LineBreakMode="WordWrap"
+                    x:Name="Problem"
+                    TextColor="black"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Start"
+                    BackgroundColor="LightGray"/>
+            </Border>
+            
+            <!-- Name -->
+            <HorizontalStackLayout>
+                <Label
+                   Text="Name:"
+                   TextColor="Black"
+                   FontSize="20"
+                   FontFamily="Arial"
+                   Padding="10,13,0,0"/>
+                <Border
+                    Stroke="black"
+                    StrokeThickness="1"
+                    Padding="0,0,0,0"
+                    Margin="10,10">
+                    <Label
+                        x:Name="userName"
+                        Padding="10,3"
+                        Text="name"
+                        LineBreakMode="WordWrap"
+                        TextColor="black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"
+                        BackgroundColor="LightGray"
+                        MaximumWidthRequest="250"/>
+                </Border>
+            </HorizontalStackLayout>
+            
+            <!-- Address -->
+            <HorizontalStackLayout>
+                <Label
+                   Text="Address:"
+                   TextColor="Black"
+                   FontSize="20"
+                   FontFamily="Arial"
+                   Padding="10,13,0,0"/>
+                <Border
+                    Stroke="black"
+                    StrokeThickness="1"
+                    Padding="0,0,0,0"
+                    Margin="10,10">
+                    <Label
+                        x:Name="Address"
+                        Padding="10,3"
+                        Text="address"
+                        LineBreakMode="WordWrap"
+                        TextColor="black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"
+                        MaximumWidthRequest="250"
+                        BackgroundColor="LightGray"/>
+                </Border>
+            </HorizontalStackLayout>
+            
+            <!-- Email -->
+            <HorizontalStackLayout>
+                <Label
+                   Text="e-mail: "
+                   TextColor="Black"
+                   FontSize="20"
+                   FontFamily="Arial"
+                   Padding="10,13,0,0"/>
+                <Border
+                    Stroke="black"
+                    StrokeThickness="1"
+                    Padding="0,0,0,0"
+                    Margin="10,10">
+                    <Label
+                        x:Name="userEmail"
+                        Padding="10,3"
+                        Text="email"
+                        LineBreakMode="WordWrap"
+                        TextColor="black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"
+                        MaximumWidthRequest="250"
+                        BackgroundColor="LightGray"/>
+                </Border>
+            </HorizontalStackLayout>
+            <BoxView Margin="0,10" HeightRequest="2" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+            <Label
+                Text="Reply:"
+                TextColor="Black"
+                FontSize="20"
+                FontFamily="Arial"
+                Padding="10,10"
+                />
+            <Border
+                Stroke="black"
+                StrokeThickness="1"
+                Padding="0,0,0,0"
+                Margin="10,10">
+                <Editor
+                    x:Name="Resolve"
+                    TextColor="black"
+                    HorizontalTextAlignment="Start"
+                    VerticalTextAlignment="Start"
+                    Placeholder="Resolve Details"
+                    HeightRequest="120"
+                    AutoSize="TextChanges"
+                    MaxLength="500"/>
+            </Border>
+            <Button
+                x:Name="SubmitBtn"
+                BackgroundColor="#C52323"
+                TextColor="white"
+                Text="Submit"
+                Clicked="SubmitBtn_Clicked" 
+                Margin="100,0"/>
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

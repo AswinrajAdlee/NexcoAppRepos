@@ -3,20 +3,84 @@
   "WorkspaceRootPath": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketresolve.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketresolve.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketresolve.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketresolve.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\ticketsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\ticketsresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\ticketsresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:generateticket.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\generateticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:generateticket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketlists.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketlists.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketfilter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketfilter.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketfilter.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\ticketlists.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:ticketlists.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\classes\\login and registration checker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:classes\\login and registration checker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\verificationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:verificationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\homepageagent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepageagent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|g:\\visualstudio\\source\\repos\\nexcoapp\\clonegit\\nexcoapprepos\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E8417AD1-7938-4862-A2BD-F5D30E4FF062}|NexcoApp.csproj|solutionrelative:homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +90,245 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "LoginPage.xaml",
-              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
-              "RelativeToolTip": "LoginPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T04:21:07.201Z",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\EmailService.cs",
+              "RelativeDocumentMoniker": "Classes\\EmailService.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\EmailService.cs",
+              "RelativeToolTip": "Classes\\EmailService.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswFQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:26:09.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "GenerateTicket.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\GenerateTicket.xaml.cs",
+              "RelativeDocumentMoniker": "GenerateTicket.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\GenerateTicket.xaml.cs",
+              "RelativeToolTip": "GenerateTicket.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwEEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:31:44.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "Classes\\Client.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Client.cs",
+              "RelativeToolTip": "Classes\\Client.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:25:17.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketsDB.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\TicketsDB.cs",
+              "RelativeDocumentMoniker": "Classes\\TicketsDB.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\TicketsDB.cs",
+              "RelativeToolTip": "Classes\\TicketsDB.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:20:52.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterPage.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "RegisterPage.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowGcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T20:13:53.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketsResolver.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\TicketsResolver.cs",
+              "RelativeDocumentMoniker": "Classes\\TicketsResolver.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\TicketsResolver.cs",
+              "RelativeToolTip": "Classes\\TicketsResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:33:35.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketResolve.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketResolve.xaml.cs",
+              "RelativeDocumentMoniker": "TicketResolve.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketResolve.xaml.cs",
+              "RelativeToolTip": "TicketResolve.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:43:36.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketResolve.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketResolve.xaml",
+              "RelativeDocumentMoniker": "TicketResolve.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketResolve.xaml",
+              "RelativeToolTip": "TicketResolve.xaml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAAKsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T21:02:02.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenerateTicket.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\GenerateTicket.xaml",
+              "RelativeDocumentMoniker": "GenerateTicket.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\GenerateTicket.xaml",
+              "RelativeToolTip": "GenerateTicket.xaml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAGIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T21:31:41.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TicketFilter.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketFilter.xaml.cs",
+              "RelativeDocumentMoniker": "TicketFilter.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketFilter.xaml.cs",
+              "RelativeToolTip": "TicketFilter.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:03:59.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicketLists.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketLists.xaml",
+              "RelativeDocumentMoniker": "TicketLists.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketLists.xaml",
+              "RelativeToolTip": "TicketLists.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T21:04:41.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketLists.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketLists.xaml.cs",
+              "RelativeDocumentMoniker": "TicketLists.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketLists.xaml.cs",
+              "RelativeToolTip": "TicketLists.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:04:07.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketFilter.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketFilter.xaml",
+              "RelativeDocumentMoniker": "TicketFilter.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\TicketFilter.xaml",
+              "RelativeToolTip": "TicketFilter.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T23:06:38.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "LoginPage.xaml.cs",
               "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml.cs",
               "RelativeToolTip": "LoginPage.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T04:21:08.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Ticket.cs",
+              "RelativeDocumentMoniker": "Classes\\Ticket.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Ticket.cs",
+              "RelativeToolTip": "Classes\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T21:19:04.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login and Registration Checker.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Login and Registration Checker.cs",
+              "RelativeDocumentMoniker": "Classes\\Login and Registration Checker.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\Classes\\Login and Registration Checker.cs",
+              "RelativeToolTip": "Classes\\Login and Registration Checker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:33:31.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerificationPage.xaml.cs",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\VerificationPage.xaml.cs",
+              "RelativeDocumentMoniker": "VerificationPage.xaml.cs",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\VerificationPage.xaml.cs",
+              "RelativeToolTip": "VerificationPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:16:00.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-22T04:21:07.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePage.xaml",
               "RelativeDocumentMoniker": "HomePage.xaml",
@@ -69,13 +341,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "HomePageAgent.xaml",
               "DocumentMoniker": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePageAgent.xaml",
               "RelativeDocumentMoniker": "HomePageAgent.xaml",
               "ToolTip": "G:\\VisualStudio\\source\\repos\\NexcoApp\\CloneGit\\NexcoAppRepos\\HomePageAgent.xaml",
               "RelativeToolTip": "HomePageAgent.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-21T23:18:18.625Z",
               "EditorCaption": ""

@@ -1,4 +1,4 @@
-namespace NexcoApp;
+namespace NexcoApp; 
 using Firebase.Database;
 using Firebase.Database.Query;
 using System.Collections.ObjectModel;
@@ -28,8 +28,12 @@ public partial class TicketLists : ContentPage
                             var newTicket = new Ticket
                             {
                                 title = item.Object.title,
-                                issueDescription = item.Object.clientInfo.fName + " " + item.Object.clientInfo.lName,
+                                issueDescription = item.Object.issueDescription,
                                 creationDate = item.Object.creationDate,
+                                ticketLevel = item.Object.ticketLevel,
+                                BackgroundColor = item.Object.BackgroundColor,
+                                clientInfo = item.Object.clientInfo,
+                                ticketID = item.Object.ticketID
                             };
                             OpenTickets.Add(newTicket);
                         }
@@ -38,8 +42,13 @@ public partial class TicketLists : ContentPage
     }
 
     // Open Tickets Resolver //
-    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
     {
-        Navigation.PushAsync(new TicketResolve());
+        var frame = sender as Frame;
+
+        if (frame.BindingContext is Ticket tappedTicket)
+        {
+            await Navigation.PushAsync(new TicketResolve(tappedTicket));
+        }
     }
 }

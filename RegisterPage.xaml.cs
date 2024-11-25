@@ -99,7 +99,7 @@ public partial class RegisterPage : ContentPage
 
             EmailService emailService = new EmailService();
             string token = emailService.generateEmailVerificationToken();
-            await emailService.sendEmail(this, EmailText.Text, token);
+            await emailService.verifyEmail(this, EmailText.Text, token);
             fFname = fNameText.Text;
             lLname = lNameText.Text;
             cCompanyName = CompanyName.Text;
@@ -117,7 +117,7 @@ public partial class RegisterPage : ContentPage
     {
         RegisterBtn.Opacity = 0.8;
         RegisterBtn.IsEnabled = false;
-        await Task.Delay(5000);
+        Task.Delay(5000);
         RegisterBtn.Opacity = 1;
         RegisterBtn.IsEnabled = true;
     }

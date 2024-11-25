@@ -1,6 +1,5 @@
 using Firebase.Database;
 using NexcoApp.Classes;
-using Windows.Media.AppBroadcasting;
 namespace NexcoApp;
 
 public partial class VerificationPage : ContentPage

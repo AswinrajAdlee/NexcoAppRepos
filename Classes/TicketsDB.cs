@@ -30,7 +30,8 @@ namespace NexcoApp.Classes
                 creationDate = ticket.creationDate,
                 ticketID = await retrieveNextID(firebaseClient),
                 ticketStatus = ticket.ticketStatus,
-                ticketLevel = ticket.ticketLevel
+                ticketLevel = ticket.ticketLevel,
+                BackgroundColor = ticket.BackgroundColor
             });
 
 

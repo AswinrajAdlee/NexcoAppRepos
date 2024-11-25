@@ -16,6 +16,7 @@ public partial class GenerateTicket : ContentPage
     ObservableCollection<Client> cClientlist;
     private string key;
     Ticket newTicket = new Ticket();
+    Color ticketColor;
     public GenerateTicket(Client client, FirebaseClient firebase, ObservableCollection<Client> clientlist)
     {
         InitializeComponent();
@@ -57,14 +58,32 @@ public partial class GenerateTicket : ContentPage
         newTicket.ticketStatus = "Open";
         newTicket.clientInfo = cClient;
         newTicket.creationDate = DateTime.Now;
+        newTicket.BackgroundColor = ticketColor;
     }
     // Cancel clicked //
     private async void CancelBtn_Clicked(object sender, EventArgs e)
     {
-        bool answer = await DisplayAlert("Alert", "Are you sure you want to cance? All information will be deleted", "Confirm", "Return");
+        bool answer = await DisplayAlert("Alert", "Are you sure you want to cancel? All information will be deleted", "Confirm", "Return");
         if (answer == true)
         {
             Navigation.RemovePage(this);
+        }
+    }
+
+
+    private void sPicker_SelectedIndexChanged_1(object sender, EventArgs e)
+    {
+        if (sPicker.SelectedIndex == 1)
+        {
+            ticketColor = Colors.WhiteSmoke;
+        }
+        if (sPicker.SelectedIndex == 2)
+        {
+            ticketColor = Color.FromArgb("#FF7F50");
+        }
+        if (sPicker.SelectedIndex == 3)
+        {
+            ticketColor = Color.FromArgb("#FF7276");
         }
     }
 }

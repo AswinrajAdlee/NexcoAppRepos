@@ -25,14 +25,14 @@
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame BorderColor="Gray" Padding="10" Margin="10" BackgroundColor="WhiteSmoke">
+                        <Frame  BorderColor="Black" Padding="10" Margin="10" BackgroundColor="{Binding BackgroundColor}">
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                             </Frame.GestureRecognizers>
                             <StackLayout>
-                                <Label Text="{Binding title}" TextColor="Black"/>
-                                <Label Text="{Binding issueDescription}" TextColor="gray"/>
-                                <Label Text="{Binding creationDate}" FontSize="12" TextColor="Gray" />
+                                <Label Text="{Binding title}" TextColor="Black" FontAttributes="Bold"/>
+                                <Label Text="{Binding DisplayTicketID}" TextColor="Gray" FontAttributes="Bold"/>
+                                <Label Text="{Binding creationDate}" FontSize="12" TextColor="Black"/>
                             </StackLayout>
                         </Frame>
                     </DataTemplate>

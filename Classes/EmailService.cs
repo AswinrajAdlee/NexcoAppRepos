@@ -34,7 +34,7 @@ namespace NexcoApp.Classes
             }
         }
 
-        public async Task sendEmail(RegisterPage registerPageref, string userEmail, string verificationToken)
+        public async Task verifyEmail(RegisterPage registerPageref, string userEmail, string verificationToken)
         {
             if (!IsValidEmail(userEmail))
             {
@@ -78,8 +78,37 @@ namespace NexcoApp.Classes
             }
         }
 
-        public void verifyEmail (string userEmail)
+        public void sendEmail (string userEmail)
         {
+            try
+            {
+                // Set up the SMTP client (Gmail example)
+                var smtpClient = new SmtpClient("smtp.gmail.com")
+                {
+                    Port = 587,
+                    Credentials = new NetworkCredential("NexcoNetTest@gmail.com", "iiix vdwv yysk qqkh"), // Use environment variables or secure storage for credentials
+                    EnableSsl = true,
+                };
+
+                // Create the email message
+                var mailMessage = new MailMessage
+                {
+                    From = new MailAddress("NexcoNetTest@gmail.com"),
+                    Subject = "Nexco Networks Email Verification",
+                    Body = $"Your six characer verification code is:",
+                    IsBodyHtml = false
+                };
+
+                mailMessage.To.Add(userEmail);
+
+
+                Console.WriteLine("Verification email sent successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to send verification email: {ex.Message}");
+            }
+
 
         }
 

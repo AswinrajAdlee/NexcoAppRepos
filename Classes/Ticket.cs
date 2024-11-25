@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,6 +18,9 @@ namespace NexcoApp.Classes
         public Client? clientInfo { get; set; }
         public string? ticketStatus { get; set; } 
         public int ticketLevel { get; set; }
+        public Color BackgroundColor { get; set; } = Colors.WhiteSmoke;
+
+        public string DisplayTicketID => $"Ticket ID: {ticketID}";
 
 
         private bool validateInfo()
