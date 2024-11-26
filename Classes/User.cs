@@ -20,7 +20,7 @@ namespace NexcoApp.Classes
         public DateTime birthDate; 
         public string password = "N/A";
         public bool isLoggedIn = false;
-        public string key;
+        public string key = "N/A";
         
    
         public async void Registration(Client cClient)
@@ -37,6 +37,7 @@ namespace NexcoApp.Classes
                 password = cClient.password,
                 userID = cClient.userID,
                 isVerified = true,
+                
             });
         }
 

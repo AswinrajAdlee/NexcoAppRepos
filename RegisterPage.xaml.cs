@@ -15,7 +15,7 @@ public partial class RegisterPage : ContentPage
     ObservableCollection<Agent> ?Agentlist;
     ObservableCollection<Client>? Clientlist;
     bool clientFound = false;
-    public string fFname, lLname, cCompanyName,companyAddress, companyPostal, userEmail, userPass;
+    public string? fFname, lLname, cCompanyName,companyAddress, companyPostal, userEmail, userPass;
     public int ID;
 
     public RegisterPage(FirebaseClient firebase, ObservableCollection<Agent> agentlist, ObservableCollection<Client>? clientList)

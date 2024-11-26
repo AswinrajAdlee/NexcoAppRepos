@@ -78,7 +78,8 @@ namespace NexcoApp.Classes
             }
         }
 
-        public void sendEmail (string userEmail)
+        // Send Email to User // 
+        public async Task sendEmail(string userEmail, string subjectTitle, string Body)
         {
             try
             {
@@ -94,14 +95,14 @@ namespace NexcoApp.Classes
                 var mailMessage = new MailMessage
                 {
                     From = new MailAddress("NexcoNetTest@gmail.com"),
-                    Subject = "Nexco Networks Email Verification",
-                    Body = $"Your six characer verification code is:",
+                    Subject = "RE: " + subjectTitle,
+                    Body = Body,
                     IsBodyHtml = false
                 };
 
                 mailMessage.To.Add(userEmail);
 
-
+                await smtpClient.SendMailAsync(mailMessage);
                 Console.WriteLine("Verification email sent successfully.");
             }
             catch (Exception ex)

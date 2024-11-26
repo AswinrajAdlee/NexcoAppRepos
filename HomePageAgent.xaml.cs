@@ -41,11 +41,6 @@ public partial class HomePageAgent : ContentPage
         Navigation.RemovePage(this);
     }
 
-    private void TicketsBtn_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
     private void Button_Clicked_1(object sender, EventArgs e)
     {
 
@@ -53,6 +48,6 @@ public partial class HomePageAgent : ContentPage
 
     private void Button_Clicked_2(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new TicketFilter());
+        Navigation.PushAsync(new TicketFilter(aAgent));
     }
 }

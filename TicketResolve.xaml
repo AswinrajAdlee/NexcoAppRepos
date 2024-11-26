@@ -120,7 +120,7 @@
             <!-- Email -->
             <HorizontalStackLayout>
                 <Label
-                   Text="e-mail: "
+                   Text="E-mail: "
                    TextColor="Black"
                    FontSize="20"
                    FontFamily="Arial"
@@ -150,6 +150,12 @@
                 FontFamily="Arial"
                 Padding="10,10"
                 />
+            <Picker 
+                x:Name="resolvePicker"
+                Margin="10,0"
+                BackgroundColor="#C52323"
+                SelectedIndex="0"
+                SelectedIndexChanged="resolvePicker_SelectedIndexChanged"/>
             <Border
                 Stroke="black"
                 StrokeThickness="1"
@@ -157,12 +163,14 @@
                 Margin="10,10">
                 <Editor
                     x:Name="Resolve"
+                    TextChanged="Resolve_TextChanged"
                     TextColor="black"
                     HorizontalTextAlignment="Start"
                     VerticalTextAlignment="Start"
                     Placeholder="Resolve Details"
-                    HeightRequest="120"
+                    MinimumHeightRequest="120"
                     AutoSize="TextChanges"
+                    IsReadOnly="false"
                     MaxLength="500"/>
             </Border>
             <Button
@@ -171,7 +179,7 @@
                 TextColor="white"
                 Text="Submit"
                 Clicked="SubmitBtn_Clicked" 
-                Margin="100,0"/>
+                Margin="100,0,100,20"/>
 
 
         </VerticalStackLayout>

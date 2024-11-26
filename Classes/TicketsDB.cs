@@ -42,9 +42,46 @@ namespace NexcoApp.Classes
 
         }
 
-        public void updateTicketInfo()
+        public async Task moveTicket(FirebaseClient firebaseClient, Ticket selectedTicket, Agent aAgent)
         {
+            string key = "N/A";
+            var collection = firebaseClient
+               .Child("Open Ticket")
+               .AsObservable<Ticket>()
+               .Subscribe((item) =>
+               {
+                   if (item.Object.ticketID == selectedTicket.ticketID)
+                   {
+                       key = item.Key;
+                   }
+               });
 
+
+            try
+            {
+       
+                // Step 1: Read the ticket data from "Open Tickets"
+                var openTicketData = await firebaseClient
+                    .Child("Open Tickets")
+                    .Child(key)
+                    .OnceSingleAsync<Ticket>(); // Assuming Ticket is a model class
+
+
+                // Step 2: Write the data to "Closed Tickets"
+                addTicket(firebaseClient, "Pending Ticket", selectedTicket);
+
+                // Step 3: Delete the data from "Open Tickets"
+                await firebaseClient
+                    .Child("Open Ticket")
+                    .Child(key)
+                    .DeleteAsync();
+
+                Console.WriteLine("Ticket moved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error moving ticket: {ex.Message}");
+            }
         }
 
         public void retrieveInfo()
