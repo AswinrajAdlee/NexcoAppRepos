@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NexcoApp.TicketReporting">
+    <ScrollView x:Name="MyScrollView">
+        <VerticalStackLayout
+ BackgroundColor="white"
+ Padding="0, 0"
+ Spacing="0">
+            <!-- Header -->
+            <Grid ColumnDefinitions="Auto, *" BackgroundColor="Black" Padding="5,10">
+                <Label
+             Margin="0"
+         Grid.Column="1"
+             Text="Ticket Reporting"
+             FontSize="Large"
+             FontAttributes="Bold"
+             HorizontalOptions="Center"
+             VerticalOptions="Center"/>
+            </Grid>
+
+            <!-- Subject Title -->
+        <Label
+             Text="Subject"
+             TextColor="Black"
+             FontSize="20"
+             FontFamily="Arial"
+             Padding="10,20,0,0"/>
+        <Border
+             Stroke="black"
+             StrokeThickness="1"
+             Padding="0,0,0,0"
+             Margin="10,10">
+                <Label
+                     Padding="10,5"
+                     LineBreakMode="WordWrap"
+                     x:Name="ticketSubject"
+                     TextColor="black"
+                     HorizontalTextAlignment="Start"
+                     VerticalTextAlignment="Start"
+                     BackgroundColor="LightGray"/>
+            </Border>
+
+
+            <!-- Issue Description -->
+            <Label
+                 Text="Issue Description"
+                 TextColor="Black"
+                 FontSize="20"
+                 FontFamily="Arial"
+                 Padding="10,10,0,0"/>
+            <Border
+                Stroke="black"
+                StrokeThickness="1"
+                Padding="0,0,0,0"
+                Margin="10,10">
+                <Label
+                 Padding="10,5"
+                 MinimumHeightRequest="120"
+                 LineBreakMode="WordWrap"
+                 x:Name="Problem"
+                 TextColor="black"
+                 HorizontalTextAlignment="Start"
+                 VerticalTextAlignment="Start"
+                 BackgroundColor="LightGray"/>
+            </Border>
+
+            <!-- Name -->
+            <HorizontalStackLayout>
+                <Label
+                    Text="Name:"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Arial"
+                    Padding="10,13,0,0"/>
+                <Border
+                    Stroke="black"
+                    StrokeThickness="1"
+                    Padding="0,0,0,0"
+                    Margin="10,10">
+                    <Label
+                        x:Name="userName"
+                        Padding="10,3"
+                        Text="name"
+                        LineBreakMode="WordWrap"
+                        TextColor="black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"
+                        BackgroundColor="LightGray"
+                        MaximumWidthRequest="250"/>
+                </Border>
+            </HorizontalStackLayout>
+
+            <!-- Address -->
+            <HorizontalStackLayout>
+                <Label
+                    Text="Address:"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Arial"
+                    Padding="10,13,0,0"/>
+                <Border
+                     Stroke="black"
+                     StrokeThickness="1"
+                     Padding="0,0,0,0"
+                     Margin="10,10">
+                    <Label
+                         x:Name="Address"
+                         Padding="10,3"
+                         Text="address"
+                         LineBreakMode="WordWrap"
+                         TextColor="black"
+                         HorizontalTextAlignment="Center"
+                         VerticalTextAlignment="Start"
+                         MaximumWidthRequest="250"
+                         BackgroundColor="LightGray"/>
+                </Border>
+            </HorizontalStackLayout>
+
+            <!-- Email -->
+            <HorizontalStackLayout>
+                <Label
+                    Text="E-mail: "
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Arial"
+                    Padding="10,13,0,0"/>
+                <Border
+                     Stroke="black"
+                     StrokeThickness="1"
+                     Padding="0,0,0,0"
+                     Margin="10,10">
+                    <Label
+                         x:Name="userEmail"
+                         Padding="10,3"
+                         Text="email"
+                         LineBreakMode="WordWrap"
+                         TextColor="black"
+                         HorizontalTextAlignment="Center"
+                         VerticalTextAlignment="Start"
+                         MaximumWidthRequest="250"
+                         BackgroundColor="LightGray"/>
+                </Border>
+            </HorizontalStackLayout>
+            <BoxView Margin="0,10" HeightRequest="2" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+            <Label
+                 Text="Initial Reply:"
+                 TextColor="Black"
+                 FontSize="20"
+                 FontFamily="Arial"
+                 Padding="10,10"
+             />
+            <Editor
+                 x:Name="Resolve"
+                 TextColor="black"
+                 HorizontalTextAlignment="Start"
+                 VerticalTextAlignment="Start"
+                 Placeholder="Resolve Details"
+                 MinimumHeightRequest="120"
+                 AutoSize="TextChanges"
+                 IsReadOnly="true"
+                 IsEnabled="false"
+                 MaxLength="500"/>
+            <BoxView Margin="0,10" HeightRequest="2" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+
+
+
+            <Label
+                Text="Agent Details"
+                TextColor="Black"
+                FontSize="20"
+                FontFamily="Arial"
+                FontAttributes="Bold"
+                Padding="10,10,0,0"
+                Margin="0,0,0,20"/>
+
+
+            <!-- Agent Code -->
+            <HorizontalStackLayout>
+                <Label
+                    Text="Agent Code:"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Arial"
+                    Padding="10,13,0,0"/>
+                <Border
+                    Stroke="black"
+                    StrokeThickness="1"
+                    Padding="0,0,0,0"
+                    Margin="10,10">
+                    <Label
+                        x:Name="agentCode"
+                        Padding="10,3"
+                        Text="name"
+                        LineBreakMode="WordWrap"
+                        TextColor="black"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Start"
+                        BackgroundColor="LightGray"
+                        MaximumWidthRequest="250"/>
+                </Border>
+            </HorizontalStackLayout>
+            <!-- Agent Name -->
+            <HorizontalStackLayout>
+                <Label
+        Text="Agent Name:"
+        TextColor="Black"
+        FontSize="20"
+        FontFamily="Arial"
+        Padding="10,13,0,0"/>
+                <Border
+        Stroke="black"
+        StrokeThickness="1"
+        Padding="0,0,0,0"
+        Margin="10,10">
+                    <Label
+            x:Name="agentName"
+            Padding="10,3"
+            Text="name"
+            LineBreakMode="WordWrap"
+            TextColor="black"
+            HorizontalTextAlignment="Center"
+            VerticalTextAlignment="Start"
+            BackgroundColor="LightGray"
+            MaximumWidthRequest="250"/>
+                </Border>
+            </HorizontalStackLayout>
+            
+            <BoxView Margin="0,10" HeightRequest="2" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+           
+            <HorizontalStackLayout>
+                <Label
+                    Text="Client Satisfied?"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Arial"
+                    Padding="10,13,0,0"/>
+                <CheckBox
+                    Color="#C52323"
+                    IsChecked="false"
+                    x:Name="Satisfaction"
+                    />
+            </HorizontalStackLayout>
+
+            <Label
+                Text="Final Comments:"
+                TextColor="Black"
+                FontSize="20"
+                FontFamily="Arial"
+                Padding="10,10"
+            />
+            <Border
+                Stroke="black"
+                StrokeThickness="1"
+                Padding="0,0,0,0"
+                Margin="10,10">
+            <Editor
+                x:Name="Comments"
+                TextColor="black"
+                HorizontalTextAlignment="Start"
+                VerticalTextAlignment="Start"
+                Placeholder="Comments"
+                MinimumHeightRequest="120"
+                AutoSize="TextChanges"
+                IsReadOnly="false"
+                MaxLength="500"/>
+        </Border>
+
+
+            <Button
+                 x:Name="Submit"
+                 BackgroundColor="#C52323"
+                 TextColor="white"
+                 Text="Close Ticket"
+                 Clicked="SubmitBtn_Clicked" 
+                 Margin="100,0,100,20"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

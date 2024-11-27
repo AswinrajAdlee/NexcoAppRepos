@@ -85,6 +85,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketLists.xaml
 build_metadata.AdditionalFiles.TargetPath = TicketLists.xaml
 build_metadata.AdditionalFiles.RelativePath = TicketLists.xaml
 
+[G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/TicketReporting.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketReporting.xaml
+build_metadata.AdditionalFiles.TargetPath = TicketReporting.xaml
+build_metadata.AdditionalFiles.RelativePath = TicketReporting.xaml
+
 [G:/VisualStudio/source/repos/NexcoApp/CloneGit/NexcoAppRepos/TicketResolve.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NexcoApp.TicketResolve.xaml

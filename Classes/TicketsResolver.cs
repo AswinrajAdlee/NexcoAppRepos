@@ -1,12 +1,6 @@
-﻿using Microsoft.Maui.ApplicationModel.Communication;
-using Microsoft.Maui.Controls.Shapes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static Microsoft.Maui.ApplicationModel.Permissions;
-using static System.Net.Mime.MediaTypeNames;
+﻿using Firebase.Database;
+using Firebase.Database.Query;
+
 
 namespace NexcoApp.Classes
 {
@@ -31,7 +25,7 @@ namespace NexcoApp.Classes
 
         } 
 
-        public void UpdateTicketStatus()
+        public void UpdateTicketStatus(FirebaseClient firebaseClient, string key)
         {
 
         }

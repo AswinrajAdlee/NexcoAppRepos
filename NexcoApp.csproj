@@ -93,6 +93,9 @@
 	  <MauiXaml Update="TicketLists.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="TicketReporting.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="TicketResolve.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

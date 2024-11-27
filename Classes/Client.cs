@@ -32,7 +32,7 @@ namespace NexcoApp.Classes
         private async void submitTicket(GenerateTicket ticketsPage, FirebaseClient firebaseClient, Ticket tTicket)
         {  
            TicketsDB ticketsDB = new TicketsDB();
-            ticketsDB.addTicket(
+            await ticketsDB.addTicket(
             firebaseClient,
             "Open Ticket",
             tTicket);

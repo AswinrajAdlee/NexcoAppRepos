@@ -55,10 +55,11 @@ public partial class TicketResolve : ContentPage
 			bool answer = await DisplayAlert("Verification", "Confirm submit ticket?", "Submit", "Cancel");
 			if (answer == true)
 			{
+			
 				EmailService emailService = new EmailService();
-				await emailService.sendEmail(userEmail.Text, ticketSubject.Text, messageBody);
+				await emailService.sendEmail(userEmail.Text, ticketSubject.Text + " #" + tTicket.ticketID, messageBody);
 				TicketsDB ticketsDB = new TicketsDB();
-				await ticketsDB.moveTicket(firebaseClient, tTicket, aAgent);
+				await ticketsDB.moveTicket(firebaseClient, tTicket, aAgent, Resolve.Text);
 				Navigation.RemovePage(ticketlistspage);
 				Navigation.RemovePage(this);
 			}

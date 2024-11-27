@@ -14,6 +14,7 @@
             Routing.RegisterRoute("ticketfilterpage", typeof(TicketFilter));
             Routing.RegisterRoute("ticketlistpage", typeof(TicketLists));
             Routing.RegisterRoute("ticketresolvepage", typeof(TicketResolve));
-        }
+            Routing.RegisterRoute("ticketreportingpage", typeof(TicketReporting));
+;        }
     }
 }

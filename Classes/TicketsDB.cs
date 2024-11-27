@@ -19,7 +19,7 @@ namespace NexcoApp.Classes
 
 
 
-        public async void addTicket(FirebaseClient firebaseClient, string ttype, Ticket ticket)
+        public async Task addTicket(FirebaseClient firebaseClient, string ttype, Ticket ticket)
         {
             await firebaseClient.Child(ttype).PostAsync(new Ticket
             {
@@ -28,21 +28,28 @@ namespace NexcoApp.Classes
                 clientInfo = ticket.clientInfo,
                 issueStartDate = ticket.issueStartDate,
                 creationDate = ticket.creationDate,
-                ticketID = await retrieveNextID(firebaseClient),
+                ticketID = await retrieveNextID(firebaseClient, ticket.ticketID),
                 ticketStatus = ticket.ticketStatus,
                 ticketLevel = ticket.ticketLevel,
-                BackgroundColor = ticket.BackgroundColor
+                BackgroundColor = ticket.BackgroundColor,
+                ticketSolution = ticket.ticketSolution,
+                agentAssigned = ticket.agentAssigned,
+                clientSatisfied = ticket.clientSatisfied,
+                finalComments = ticket.finalComments
             });
 
 
         }
 
-        public void removeTicket()
+        public async Task removeTicket(FirebaseClient firebaseClient, string ticketType, string key)
         {
-
+              await firebaseClient
+                    .Child(ticketType)
+                    .Child(key)
+                    .DeleteAsync();
         }
 
-        public async Task moveTicket(FirebaseClient firebaseClient, Ticket selectedTicket, Agent aAgent)
+        public async Task moveTicket(FirebaseClient firebaseClient, Ticket selectedTicket, Agent aAgent, string solutionText)
         {
             string key = "N/A";
             var collection = firebaseClient
@@ -53,9 +60,10 @@ namespace NexcoApp.Classes
                    if (item.Object.ticketID == selectedTicket.ticketID)
                    {
                        key = item.Key;
+                       selectedTicket.ticketSolution = solutionText;
+                       selectedTicket.agentAssigned = aAgent;
                    }
                });
-
 
             try
             {
@@ -68,13 +76,10 @@ namespace NexcoApp.Classes
 
 
                 // Step 2: Write the data to "Closed Tickets"
-                addTicket(firebaseClient, "Pending Ticket", selectedTicket);
+                await addTicket(firebaseClient, "Pending Ticket", selectedTicket);
 
                 // Step 3: Delete the data from "Open Tickets"
-                await firebaseClient
-                    .Child("Open Ticket")
-                    .Child(key)
-                    .DeleteAsync();
+                await removeTicket(firebaseClient, "Open Ticket" ,key);
 
                 Console.WriteLine("Ticket moved successfully.");
             }
@@ -84,22 +89,35 @@ namespace NexcoApp.Classes
             }
         }
 
+
+
         public void retrieveInfo()
         {
             
 
         }
 
-        public async Task<int> retrieveNextID(FirebaseClient firebaseClient)
-        {
-            var opencollection = await firebaseClient
-               .Child("Open Ticket")
-               .OnceAsync<Ticket>();
-            var closedcollection = await firebaseClient
-                .Child("Closed Ticket")
-                .OnceAsync<Ticket>();
-            return opencollection.Count + closedcollection.Count + 1; 
 
+
+        public async Task<int> retrieveNextID(FirebaseClient firebaseClient, int ticketID)
+        {
+            if (ticketID == 0)
+            {
+                var opencollection = await firebaseClient
+                   .Child("Open Ticket")
+                   .OnceAsync<Ticket>();
+                var pendingcollection = await firebaseClient
+                    .Child("Pending Ticket")
+                    .OnceAsync<Ticket>();
+                var solvedcollection = await firebaseClient
+                    .Child("Solved Ticket")
+                    .OnceAsync<Ticket>();
+                return opencollection.Count + pendingcollection.Count + solvedcollection.Count + 1;
+            }
+            else
+            {
+                return ticketID;
+            }
         }
     }
 

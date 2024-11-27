@@ -58,7 +58,9 @@ public partial class TicketLists : ContentPage
                                 ticketLevel = item.Object.ticketLevel,
                                 BackgroundColor = item.Object.BackgroundColor,
                                 clientInfo = item.Object.clientInfo,
-                                ticketID = item.Object.ticketID
+                                ticketID = item.Object.ticketID,
+                                ticketSolution = item.Object.ticketSolution,
+                                agentAssigned = item.Object.agentAssigned,
                             };
                             OpenTickets.Add(newTicket);
                         }
@@ -73,7 +75,14 @@ public partial class TicketLists : ContentPage
 
         if (frame.BindingContext is Ticket tappedTicket)
         {
-            await Navigation.PushAsync(new TicketResolve(this, tappedTicket, aAgent, firebaseClient));
+            if (Title.Text == "Open Tickets")
+            {
+                await Navigation.PushAsync(new TicketResolve(this, tappedTicket, aAgent, firebaseClient));
+            }
+            if (Title.Text == "Pending Tickets")
+            {
+                await Navigation.PushAsync(new TicketReporting(tappedTicket, firebaseClient));
+            }
         }
     }
 }

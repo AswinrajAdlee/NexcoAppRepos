@@ -29,25 +29,25 @@
     <AppXManifest Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-26T05:21:46.328</Modified>
+      <Modified>2024-11-27T22:01:19.242</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-21T23:21:22.033</Modified>
+      <Modified>2024-11-27T20:17:07.415</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.runtimeconfig.json">
       <PackagePath>NexcoApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-11-21T18:43:04.581</Modified>
+      <Modified>2024-11-27T20:17:07.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.dll">
       <PackagePath>NexcoApp.dll</PackagePath>
-      <Modified>2024-11-26T05:21:45.705</Modified>
+      <Modified>2024-11-27T22:01:18.576</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NexcoApp.exe</PackagePath>
-      <Modified>2024-11-26T05:21:45.833</Modified>
+      <Modified>2024-11-27T22:01:18.709</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-11-21T18:40:19.933</Modified>
+      <Modified>2024-11-27T20:17:05.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-11-21T18:40:19.948</Modified>
+      <Modified>2024-11-27T20:17:05.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-11-21T18:40:19.967</Modified>
+      <Modified>2024-11-27T20:17:05.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-11-21T18:40:19.998</Modified>
+      <Modified>2024-11-27T20:17:05.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-11-21T18:40:20.119</Modified>
+      <Modified>2024-11-27T20:17:05.243</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -83,227 +83,227 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.259</Modified>
+      <Modified>2024-11-27T20:17:06.308</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.258</Modified>
+      <Modified>2024-11-27T20:17:06.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.257</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\email.scale-100.png">
       <PackagePath>email.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.256</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hpgback.scale-100.jpg">
       <PackagePath>hpgback.scale-100.jpg</PackagePath>
-      <Modified>2024-11-21T20:23:00.255</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nexcologo.scale-100.png">
       <PackagePath>nexcologo.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.255</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nexcologo_white.scale-100.png">
       <PackagePath>nexcologo_white.scale-100.png</PackagePath>
-      <Modified>2024-11-21T20:23:00.255</Modified>
+      <Modified>2024-11-27T20:17:06.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.deps.json">
       <PackagePath>NexcoApp.deps.json</PackagePath>
-      <Modified>2024-11-21T23:21:21.828</Modified>
+      <Modified>2024-11-27T20:17:07.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\criba\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
