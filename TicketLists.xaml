@@ -38,6 +38,13 @@
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+            <Button
+                x:Name="SubmitBtn"
+                BackgroundColor="#C52323"
+                TextColor="white"
+                Text="Return"
+                Clicked="SubmitBtn_Clicked" 
+                Margin="100,5,100,20"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

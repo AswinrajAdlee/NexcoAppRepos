@@ -29,13 +29,13 @@
     <AppXManifest Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-27T22:01:19.242</Modified>
+      <Modified>2024-11-28T18:59:39.251</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-11-27T20:17:07.415</Modified>
+      <Modified>2024-11-28T03:18:51.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.runtimeconfig.json">
       <PackagePath>NexcoApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.dll">
       <PackagePath>NexcoApp.dll</PackagePath>
-      <Modified>2024-11-27T22:01:18.576</Modified>
+      <Modified>2024-11-28T18:59:38.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>NexcoApp.exe</PackagePath>
-      <Modified>2024-11-27T22:01:18.709</Modified>
+      <Modified>2024-11-28T18:59:38.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -303,7 +303,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\VisualStudio\source\repos\NexcoApp\CloneGit\NexcoAppRepos\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\NexcoApp.deps.json">
       <PackagePath>NexcoApp.deps.json</PackagePath>
-      <Modified>2024-11-27T20:17:07.319</Modified>
+      <Modified>2024-11-28T03:18:51.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\criba\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

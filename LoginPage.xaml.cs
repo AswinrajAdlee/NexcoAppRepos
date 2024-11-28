@@ -55,7 +55,9 @@ namespace NexcoApp
                 if ((item.email == EmailText.Text))
                 {
                     found = true;
-                    if (item.password == PasswordText.Text)
+                    byte[] retrievedSalt = Convert.FromBase64String(item.userSalt);
+                    bool isPasswordCorrect = Login_and_Registration_Checker.validateUserCredentials(PasswordText.Text, item.password, retrievedSalt);
+                    if (isPasswordCorrect == true)
                     {
                         Navigation.PushAsync(new HomePage(item, firebaseClient, Client));
                     }
@@ -71,9 +73,11 @@ namespace NexcoApp
                 if ((itemAgent.email == EmailText.Text))
                 {
                     found = true;
-                    if (itemAgent.password == PasswordText.Text)
+                    byte[] retrievedSalt = Convert.FromBase64String(itemAgent.userSalt);
+                    bool isPasswordCorrect = Login_and_Registration_Checker.validateUserCredentials(PasswordText.Text, itemAgent.password, retrievedSalt);
+                    if (isPasswordCorrect == true)
                     {
-                        Navigation.PushAsync(new HomePageAgent(itemAgent, firebaseClient, Agent));
+                       Navigation.PushAsync(new HomePageAgent(itemAgent, firebaseClient, Agent));
                     }
                     else
                     {

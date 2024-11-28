@@ -21,7 +21,7 @@ namespace NexcoApp.Classes
         public Color BackgroundColor { get; set; } = Colors.WhiteSmoke;
         public string? ticketSolution { get; set; }
         public Agent? agentAssigned { get; set; }
-        public bool? clientSatisfied { get; set; }
+        public bool? clientSatisfied { get; set; } = false;
         public string? finalComments { get; set; }
 
         public string DisplayTicketID => $"Ticket ID: {ticketID}";

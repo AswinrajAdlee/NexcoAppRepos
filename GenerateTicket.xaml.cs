@@ -44,6 +44,8 @@ public partial class GenerateTicket : ContentPage
         }
         else
         {
+            SubmitBtn.IsEnabled = false;
+            SubmitBtn.Opacity = 0.8;
             setTicketInfo();
             cClient.confirmSubmission(this, firebaseClient, newTicket);
         }
@@ -68,6 +70,17 @@ public partial class GenerateTicket : ContentPage
         {
             Navigation.RemovePage(this);
         }
+        else
+        {
+            SubmitBtn.IsEnabled = true;
+            SubmitBtn.Opacity = 1;
+        }
+    }
+
+    public void resetSubmitButton()
+    {
+        SubmitBtn.IsEnabled = true;
+        SubmitBtn.Opacity = 1;
     }
 
 

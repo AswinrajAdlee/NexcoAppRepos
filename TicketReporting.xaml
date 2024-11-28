@@ -13,6 +13,7 @@
              Margin="0"
          Grid.Column="1"
              Text="Ticket Reporting"
+                    x:Name="pageTitle"
              FontSize="Large"
              FontAttributes="Bold"
              HorizontalOptions="Center"

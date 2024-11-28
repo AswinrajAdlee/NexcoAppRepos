@@ -27,4 +27,9 @@ public partial class TicketFilter : ContentPage
     {
         Navigation.PushAsync(new TicketLists("Solved Tickets", aAgent));
     }
+
+    private void ReturnBtn_Clicked(object sender, EventArgs e)
+    {
+        Navigation.RemovePage(this);
+    }
 }

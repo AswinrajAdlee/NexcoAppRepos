@@ -74,6 +74,7 @@ public partial class VerificationPage : ContentPage
             client.email = rpageRef.userEmail;
             client.password = rpageRef.userPass;
             client.userID = rpageRef.ID;
+            client.userSalt = rpageRef.saltCreated;
             client.Registration(client);
             await Task.Delay(1000);
             Navigation.RemovePage(rpageRef);

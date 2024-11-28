@@ -64,7 +64,7 @@ namespace NexcoApp.Classes
                        selectedTicket.agentAssigned = aAgent;
                    }
                });
-
+            await Task.Delay(500);
             try
             {
        
@@ -81,11 +81,11 @@ namespace NexcoApp.Classes
                 // Step 3: Delete the data from "Open Tickets"
                 await removeTicket(firebaseClient, "Open Ticket" ,key);
 
-                Console.WriteLine("Ticket moved successfully.");
+           
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error moving ticket: {ex.Message}");
+             
             }
         }
 

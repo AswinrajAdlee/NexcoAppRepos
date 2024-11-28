@@ -66,6 +66,33 @@ public partial class TicketLists : ContentPage
                         }
                     });
         }
+        if (pageTitle == "Solved Tickets")
+        {
+            var collectionAgent = firebaseClient
+                   .Child("Solved Ticket")
+                   .AsObservable<Ticket>()
+                   .Subscribe((item) =>
+                   {
+                       if (item.Object != null)
+                       {
+                           var newTicket = new Ticket
+                           {
+                               title = item.Object.title,
+                               issueDescription = item.Object.issueDescription,
+                               creationDate = item.Object.creationDate,
+                               ticketLevel = item.Object.ticketLevel,
+                               BackgroundColor = item.Object.BackgroundColor,
+                               clientInfo = item.Object.clientInfo,
+                               ticketID = item.Object.ticketID,
+                               ticketSolution = item.Object.ticketSolution,
+                               agentAssigned = item.Object.agentAssigned,
+                               clientSatisfied = item.Object.clientSatisfied,
+                               finalComments = item.Object.finalComments,
+                           };
+                           OpenTickets.Add(newTicket);
+                       }
+                   });
+        }
     }
 
     // Open Tickets Resolver //
@@ -81,8 +108,17 @@ public partial class TicketLists : ContentPage
             }
             if (Title.Text == "Pending Tickets")
             {
-                await Navigation.PushAsync(new TicketReporting(tappedTicket, firebaseClient));
+                await Navigation.PushAsync(new TicketReporting("Pending", this, tappedTicket, firebaseClient));
+            }
+            if (Title.Text == "Solved Tickets")
+            {
+                await Navigation.PushAsync(new TicketReporting("Solved", this, tappedTicket, firebaseClient));
             }
         }
+    }
+
+    private void SubmitBtn_Clicked(object sender, EventArgs e)
+    {
+        Navigation.RemovePage(this);
     }
 }

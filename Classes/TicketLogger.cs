@@ -46,7 +46,7 @@ namespace NexcoApp.Classes
                        
                    }
                });
-
+            await Task.Delay(500);
             try
             {
 

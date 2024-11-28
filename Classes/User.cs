@@ -21,6 +21,7 @@ namespace NexcoApp.Classes
         public string password = "N/A";
         public bool isLoggedIn = false;
         public string key = "N/A";
+        public string? userSalt;
         
    
         public async void Registration(Client cClient)
@@ -37,7 +38,8 @@ namespace NexcoApp.Classes
                 password = cClient.password,
                 userID = cClient.userID,
                 isVerified = true,
-                
+                userSalt = cClient.userSalt,
+
             });
         }
 

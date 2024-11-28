@@ -60,6 +60,13 @@
                     BackgroundColor="LightGray"/>
             </HorizontalStackLayout>
             <BoxView HeightRequest="1" BackgroundColor="Gray" HorizontalOptions="FillAndExpand"/>
+            <Button
+                x:Name="ReturnBtn"
+                BackgroundColor="#C52323"
+                TextColor="white"
+                Text="Return"
+                Clicked="ReturnBtn_Clicked" 
+                Margin="100,20,100,20"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

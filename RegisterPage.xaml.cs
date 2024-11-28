@@ -15,7 +15,7 @@ public partial class RegisterPage : ContentPage
     ObservableCollection<Agent> ?Agentlist;
     ObservableCollection<Client>? Clientlist;
     bool clientFound = false;
-    public string? fFname, lLname, cCompanyName,companyAddress, companyPostal, userEmail, userPass;
+    public string? fFname, lLname, cCompanyName,companyAddress, companyPostal, userEmail, userPass, saltCreated;
     public int ID;
 
     public RegisterPage(FirebaseClient firebase, ObservableCollection<Agent> agentlist, ObservableCollection<Client>? clientList)
@@ -33,7 +33,10 @@ public partial class RegisterPage : ContentPage
     {
             
         ButtonPressDelay();
-        
+
+        byte[] salt;
+        string hashedPassword = Login_and_Registration_Checker.hashPassword(PasswordText.Text, out salt);
+
         // Check to see if everything is filled out //
         if (fNameText.Text == null || lNameText.Text == null || EmailText.Text == null || ConfirmPasswordText.TextColor != Colors.LightGreen || CompanyName.Text == null || CompanyAddressStreet == null || CompanyAddressPostal.Text.Length < 6)
         {
@@ -66,13 +69,14 @@ public partial class RegisterPage : ContentPage
                                  companyAddressStreet = CompanyAddressStreet.Text,
                                  CompanyAddressPostal = CompanyAddressPostal.Text,
                                  email = EmailText.Text,
-                                 password = PasswordText.Text,
+                                 password = hashedPassword,
                                  userID = (Clientlist.ToArray().Length + Agentlist.ToArray().Length + 1),
                                  isRegistered = true,
+                                 userSalt = Convert.ToBase64String(salt)
                              });
-                             return;
                          }
                      });
+                    Navigation.RemovePage(this);
                 }
             });
             // Agent code not found in db //
@@ -96,7 +100,6 @@ public partial class RegisterPage : ContentPage
         // Send Email // 
         if (clientFound == false && AgentCheckBox.IsChecked == false)
         {
-
             EmailService emailService = new EmailService();
             string token = emailService.generateEmailVerificationToken();
             await emailService.verifyEmail(this, EmailText.Text, token);
@@ -106,8 +109,10 @@ public partial class RegisterPage : ContentPage
             companyAddress = CompanyAddressStreet.Text;
             companyPostal = CompanyAddressPostal.Text;
             userEmail = EmailText.Text;
-            userPass = PasswordText.Text;
+            userPass = hashedPassword;
+            saltCreated = Convert.ToBase64String(salt);
             ID = (Clientlist.ToArray().Length + Agentlist.ToArray().Length + 1);
+            
 
         }
     }
@@ -117,7 +122,7 @@ public partial class RegisterPage : ContentPage
     {
         RegisterBtn.Opacity = 0.8;
         RegisterBtn.IsEnabled = false;
-        Task.Delay(5000);
+        await Task.Delay(5000);
         RegisterBtn.Opacity = 1;
         RegisterBtn.IsEnabled = true;
     }

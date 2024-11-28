@@ -46,6 +46,10 @@ namespace NexcoApp.Classes
             if (answer == true)
             {
                 submitTicket(ticketsPage, firebaseClient, tTicket);
+            }
+            else
+            {
+                ticketsPage.resetSubmitButton();
             };
         }
     }
